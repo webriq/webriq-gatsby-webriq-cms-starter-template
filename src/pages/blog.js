@@ -63,6 +63,7 @@ class BlogPage extends React.Component {
           <small> ({post.createdAt})</small>
           <br />
           <Author users={users} userId={post.author.id} />
+          <img src={post.banner.url} alt="Post banner" />
           <p className={style.content}>
             {post.excerpt || 'No excerpt found...'}
           </p>
@@ -102,6 +103,9 @@ export const loadMoreQuery = graphql`
           updatedAt(fromNow: true)
           fields {
             slug
+          }
+          banner {
+            url
           }
           author {
             id
