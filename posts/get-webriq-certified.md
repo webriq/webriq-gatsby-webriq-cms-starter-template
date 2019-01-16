@@ -1,8 +1,9 @@
 ---
 title: Get WebriQ Certified
 author: Philippe Bodart
-banner: /img/uploads/get-certified.jpg
+banner: /img/uploads/carbon.png
 shortdesc: Get Certified with WebriQ CMS system for building and managing Static Pages
+updatedDate: 2019-01-16T10:05:23.262Z
 cmsUserSlug: ""
 date: 2016-08-03T16:00:00.000Z
 categories: ""
@@ -42,6 +43,8 @@ Upon positive review you will receive a WebriQ Developers certificate and a **70
 ### 6. Profile Listed
 
 Your profile will be listed in our APP, so that potential customers on the platform can contact you for jobs that need to be done on websites on the WebriQ platform.
+
+
 
 
 
