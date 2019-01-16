@@ -1,6 +1,8 @@
 backend:
   name: webriq-api
   url: http://localhost:8080
+  repo: webriq/webriqpage-webriq-blog-gatsby
+  branch: master
 
 production:
   backend:
