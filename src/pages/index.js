@@ -1,19 +1,38 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import Layout from '../layouts'
+import { Link, graphql } from 'gatsby'
 
-const IndexPage = () => (
-  <Layout>
-    <h1>Hello there!</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <code>This page is located at /src/pages/index.js</code>
-    <br />
-    <br />
-    <Link to="/about">Go to About Us page</Link>
-    <br />
-    <Link to="/blog">Go to Blog</Link>
-  </Layout>
-)
+import Layout from '../components/Layout'
+import SEO from '../components/seo'
+
+class IndexPage extends React.Component {
+  render() {
+    const siteTitle = this.props.data.site.siteMetadata.title
+    const siteDescription = this.props.data.site.siteMetadata.description
+
+    return (
+      <Layout location={this.props.location} title={siteTitle}>
+        <SEO title={siteTitle} description={siteDescription} />
+        <div>
+          <p>This is the homepage</p>
+          <Link to="/blog">Go to Blog</Link>
+          <br />
+          <br />
+        </div>
+      </Layout>
+    )
+  }
+}
 
 export default IndexPage
+
+export const indexPageQuery = graphql`
+  query indexPageQuery {
+    site {
+      siteMetadata {
+        title
+        author
+        description
+      }
+    }
+  }
+`
