@@ -1,0 +1,58 @@
+.container {
+  max-width: 1140px;
+}
+
+body {
+  font: 16px/1.5 'Open Sans', sans-serif;
+  font-weight: 400;
+  color:#031121;
+  padding-right: 0px !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Monserrat', sans-serif;
+  line-height: 1.2;
+  text-transform: unset;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+h1 { font-size:72px; }
+
+a {
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.bg-dirty-white {
+  background-color: #f0f0f0;
+}
+.text-orange {
+  color: #f66d09;
+}
+.text-blue {
+  color: #0658ff;
+}
+
+.btn-primary.btn-inverted {
+  background: #fff !important;
+  color: #000000 !important;
+  border: 2px solid #fff;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  padding: 12px 42px;
+  font-size: 18px;
+  box-shadow: 0 6px 14px rgba(0,0,0, .22);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 5px 10px 5px;
+}
+
+.btn-primary.btn-bordered {
+  background: transparent;
+  border: 2px solid #fff;
+}
+
+.btn:not(:disabled):not(.disabled) {
+}

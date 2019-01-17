@@ -1,0 +1,11 @@
+.footer {
+  font-size: 14px;
+}
+.footer a{
+  color: #031121;
+  text-decoration: none;
+  box-shadow: none;
+}
+.subscription input {
+  border:none;
+}
