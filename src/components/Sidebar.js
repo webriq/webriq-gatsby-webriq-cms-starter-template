@@ -16,7 +16,7 @@ const SideBar = () => (
           <Link to="/what-is-my-home-worth">Prices</Link>
         </li>
         <li>
-          <Link to="/blog">Is WebriQ GLUE for YOU</Link>
+          <Link to="/is-webriq-glue-for-you">Is WebriQ GLUE for YOU</Link>
         </li>
         <li>
           <Link to="/blog">Blog</Link>
