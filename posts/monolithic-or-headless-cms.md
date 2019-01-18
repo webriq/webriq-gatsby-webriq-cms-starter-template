@@ -3,7 +3,7 @@ title: Monolithic or Headless CMS
 shortdesc: "It can be a bit daunting to manoeuvre in today's world of Content Management Systems. CMS systems have been around for a long time, most of them providing different ways of authoring and structuring content for a website. "
 updatedDate: 2018-12-26T04:42:22.256Z
 cmsUserSlug: monolithic-or-headless-cms
-banner: Enonic-headlessCMS
+banner: /img/uploads/Enonic-headlessCMS.jpg
 leadtag: Headless CMS
 metadesc: Headless CMS systems compared with Headless CMS
 metakeywords: "Headless CMS, CMS, Wordpress, Drupal"

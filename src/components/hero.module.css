@@ -1,0 +1,40 @@
+.hero {
+  background-image: url("../../static/img/hero-bg.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: rgba(15,58,198,0);
+  background-size: cover;
+}
+.hero-sub {
+  background-image: url(../../static/img/hero-patterns.svg);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+ @media (min-width: 300px) {
+  .hero {
+    color: #fff;
+    padding: 100px 0 0 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero {
+    color: #fff;
+    padding: 200px 0 0 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 72px;
+  }
+}
+
+.hero-sub {
+  background-position: bottom right !important;
+  padding: 0 0 200px 0;
+}
+

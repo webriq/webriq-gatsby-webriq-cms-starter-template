@@ -1,0 +1,14 @@
+.navigation {
+ padding: 30px; 
+}
+.left-icons li a {
+  text-decoration: none; 
+}
+.menu a{
+  font-family: 'Montserrat', sans-serif;
+  font-size:18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #031121;
+  
+}
