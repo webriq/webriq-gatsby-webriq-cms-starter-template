@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: normal;
 }
 
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+}
 
 
 a {
@@ -60,6 +64,10 @@ a {
 
 main {
   clear: both;
+}
+
+.mainpage footer, .mainpost footer {
+  margin-top: 0px;
 }
 
 

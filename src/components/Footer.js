@@ -23,7 +23,7 @@ export default () =>
             </ul>
 
           </Col>
-          <Col md={5} className="pl-5">
+          <Col md={5} className="pl-3 pl-md-5">
             <h5 className="mb-4">KEEP IN TOUCH</h5>
             <p>Join our newsletter to receive updates</p>
             <Form action="" className={stylesFooter.subscription}>
@@ -36,9 +36,9 @@ export default () =>
               </Button>
             </Form>
             <ul className={`${stylesFooter.footerIcons} list-unstyled d-flex justify-content-start align-items-center`}>
-              <li className="mr-3"><a href="/" title="slack"><LazyLoadImage effect="blur" src={slack}/></a></li>
-              <li className="mr-3"><a href="/" title="twitter"><LazyLoadImage effect="blur" src={twitter}/></a></li>
-              <li className="mr-3"><a href="/" title="messenger"><LazyLoadImage effect="blur" src={messenger}/></a></li>
+              <li className="mr-3"><a href="https://slackin.webriq.com/" title="slack" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" src={slack}/></a></li>
+              <li className="mr-3"><a href="https://twitter.com/WebriQ" title="twitter" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" src={twitter}/></a></li>
+              <li className="mr-3"><a href="https://www.messenger.com/t/WebriQHQ" title="messenger" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" src={messenger}/></a></li>
             </ul>
           </Col>
 

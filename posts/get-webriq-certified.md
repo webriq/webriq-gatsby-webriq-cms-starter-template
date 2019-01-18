@@ -1,7 +1,7 @@
 ---
 title: Get WebriQ Certified
 author: Philippe Bodart
-banner: /img/uploads/carbon.png
+banner: /img/uploads/get-certified.jpg
 shortdesc: Get Certified with WebriQ CMS system for building and managing Static Pages
 updatedDate: 2019-01-16T10:05:23.262Z
 cmsUserSlug: ""

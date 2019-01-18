@@ -26,9 +26,9 @@ const SideBar = () => (
         </li>
       </ul>
       <ul className={`${stylesSidebar.leftIcons} list-unstyled d-flex justify-content-start align-items-center mt-5`}>
-        <li className="mr-3"><a href="/" title="slack"><Image src={slack}/></a></li>
-        <li className="mr-3"><a href="/" title="twitter"><Image src={twitter}/></a></li>
-        <li className="mr-3"><a href="/" title="messenger"><Image src={messenger}/></a></li>
+        <li className="mr-3"><a href="https://slackin.webriq.com/" title="slack" target="_blank" rel="noopener noreferrer"><Image src={slack}/></a></li>
+        <li className="mr-3"><a href="https://twitter.com/WebriQ" title="twitter" target="_blank" rel="noopener noreferrer"><Image src={twitter}/></a></li>
+        <li className="mr-3"><a href="https://www.messenger.com/t/WebriQHQ" title="messenger" target="_blank" rel="noopener noreferrer"><Image src={messenger}/></a></li>
       </ul>
     </div>
 );

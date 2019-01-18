@@ -7,7 +7,7 @@ import './is-webriq-glue-for-you.css'
 
 class GluePage extends React.Component {
   render() {
-    const siteTitle = this.props.data.site.siteMetadata.title
+    const siteTitle = "Is WebriQ GLUE for YOU"
     const siteDescription = this.props.data.site.siteMetadata.description
 
     return (
@@ -16,9 +16,6 @@ class GluePage extends React.Component {
         <section className="webriq-glue my-5 py-5">
               <div className="container">
                   <div className="row">
-                      <div className="col-12">
-                        <h1 className="pb-5 pb-sm-0">Is WebriQ GLUE for YOU</h1>
-                      </div>
                       <div className="col-md-6 old">
                          <div className="webriq-glue_content noborder py-sm-3 py-lg-5">
                            <p>We have built hundreds of sites on Content Management Systems like WordPress, generically called monolithic Content Management Systems (CMS), and we had done so for many years, up until we stopped. </p>

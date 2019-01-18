@@ -16,14 +16,12 @@ class PricingPage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} description={siteDescription} />
-        <section className="pricing">
+        <section className="pricing mt-5 pt-5">
 
               <Container>
                   <Row>
                       <div className="col-12 col-sm-10 mx-auto">
-                          <div className="pricing_head text-center">
-                              <h1 className="my-5">Pricing</h1>
-                          </div>
+                        
                           <div className="pricing_content row">
                               <h4 className="mb-4 mx-3"><strong>WebriQ GLUE</strong> has a unit price of $3,000 per month, and includes</h4>
                               <div className="col-12 col-sm-6">
