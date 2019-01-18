@@ -1,6 +1,17 @@
 .footer {
   font-size: 14px;
 }
+@media (min-width: 300px) {
+  .footer {
+    margin-top: 300px
+  }
+}
+@media (min-width: 768px) {
+  .footer {
+    margin-top: 50px
+  }
+}
+
 .footer a{
   color: #031121;
   text-decoration: none;
