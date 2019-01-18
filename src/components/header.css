@@ -1,0 +1,52 @@
+.header-menu {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.menubar, .logo {
+  position: relative;
+  z-index: 9;
+}
+
+.mainpost .header-menu {
+  background-color: #fff !important;
+  position: relative;
+}
+
+.mainpost .header-menu .logodarkimg,
+.mainpost .header-menu .bardark {
+  display: inline;
+}
+
+
+.homepage .logodarkimg, .homepage .bardark {
+  display: none;
+}
+
+.header-menu .container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.sticky-wrapper.is-sticky .logodarkimg,
+.sticky-wrapper.is-sticky .bardark{
+  display: inline;
+}
+.sticky-wrapper.is-sticky .logoimg,
+.sticky-wrapper.is-sticky .barlight,
+.mainpost .header-menu .logoimg,
+.mainpost .header-menu .barlight,
+.mainpage .logodarkimg,
+.mainpage .bardark {
+  display: none;
+}
+
+.sticky-wrapper.is-sticky .header-menu {
+  background-color: #fff;
+}
+
+.sticky-wrapper.is-sticky .header-menu .container {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

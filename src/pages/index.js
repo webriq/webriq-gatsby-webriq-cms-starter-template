@@ -5,14 +5,6 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import './index.css'
 import gradient from "../../static/img/image-gradient.png";
-import request from "../../static/img/request-access.svg";
-import reacticon from "../../static/img/ra-react.png";
-import gatsbyicon from "../../static/img/ra-gatsby.png";
-import htmlicon from "../../static/img/ra-html.png";
-import jsicon from "../../static/img/ra-js.png";
-import giticon from "../../static/img/ra-git.png";
-import githubicon from "../../static/img/ra-github.png";
-import netlifyicon from "../../static/img/ra-netlify.png";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
@@ -23,7 +15,7 @@ class IndexPage extends React.Component {
     const { data } = this.props
     const posts = data.allMarkdownRemark.edges
 
-    console.log(posts)
+    // console.log(posts)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>

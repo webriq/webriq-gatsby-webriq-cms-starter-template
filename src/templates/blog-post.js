@@ -2,28 +2,32 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
-import { rhythm, scale } from '../utils/typography'
+import { rhythm } from '../utils/typography'
+import { Container, Row, Col } from "react-bootstrap";
+import './blogpost.css'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
+    const siteTitle = post.frontmatter.title
     const { previous, next } = this.props.pageContext
+
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={post.frontmatter.title} description={post.excerpt} />
-        <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
+        <SEO title={post.frontmatter.title} description={post.excerpt} banner={post.frontmatter.banner} />
+        <section className="insight-page">
+        <Container className="py-5">
+        <Row>
+        <Col sm={10} md={8} className="mx-auto">
+        {/*<h1>{post.frontmatter.title}</h1>*/}
+        <ul className="list-unstyled d-flex align-items-center" >
+          <li className="mr-3"><i className="far fa-user-circle mr-1"/>by <span className="text-blue">{post.frontmatter.author}</span></li>
+          <li><i className="far fa-clock mr-1"/>{post.frontmatter.date}</li>
+        </ul>
+        <LazyLoadImage effect="blur" src={post.frontmatter.banner} alt={siteTitle}/>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
@@ -58,6 +62,10 @@ class BlogPostTemplate extends React.Component {
         <Link to="/blog">Take Me Home</Link>
         <br />
         <br />
+        </Col>
+        </Row>
+        </Container>
+        </section>
       </Layout>
     )
   }
@@ -79,7 +87,9 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(fromNow: true)
+        banner
+        author
       }
     }
   }

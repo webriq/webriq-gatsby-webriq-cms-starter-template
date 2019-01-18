@@ -1,16 +1,16 @@
 ---
 title: JAM STACK the Web Development Revolution
 shortdesc: "A revolution is happening in web technologies. It all starts with Javascript, the GLUE in any web build. "
-updatedDate: 2018-10-23T04:38:13.948Z
-cmsUserSlug: build-websites-with-jamstack
-banner: marvin-meyer-571072-unsplash
-leadtag: null
-metadesc: null
-metakeywords: null
-categories: "Jamstack, Static websites CMS"
-date: 2018-07-11T16:00:00.000Z
+updatedDate: 2018-07-18T07:47:46.977Z
+cmsUserSlug: ""
+date: 2018-07-12T00:00:00.000Z
 author: Philippe Bodart
+leadtag: "jamstack, CMS Static websites"
+metadesc: "A revolution is happening in web technologies. It all starts with Javascript, the GLUE in any web build. "
+metakeywords: "jamstack, cms static websites, headless cms"
+banner: https://res.cloudinary.com/dnla85pdq/image/upload/w_840,h_480,c_thumb/v1540269241/webriq/images/marvin-meyer-571072-unsplash
 ---
+##### A revolution is happening in web technologies. It all starts with Javascript, the GLUE in any web build.
 
 Progressions in web development comes in various forms, from the physical developments in hardware to fresh ideas, which have opened up many new opportunities and the web technologies which enable these powerful digital experiences.
 Moore’s Law suggests exponential growth will continue in the technology sector, increasing speed and performance, whilst driving down cost.
@@ -45,4 +45,3 @@ At WebriQ, we have been developing and deploying JAM Stack websites for over two
 
 ## GET EARLY BIRD ACCESS TO [WEBRIQ JAM STACK GLUE](http://madmarketing.webriq.services/f/3)
 ## Or if you are interested in building a JAM STACK website with us [REQUEST A QUOTE ](http://requestforquote.webriq.services)
-

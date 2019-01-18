@@ -16,10 +16,10 @@ export default () =>
           <Col md={6} className="pr-5">
             <h5 className="mb-4">ABOUT US</h5>
             <p>A diverse group of people coming from four continents with backgrounds in sales management, web design, open source web development, cloud based content management platforms and digital marketing.</p>
-            <ul className="list-unstyled pl-5">
-              <li><a href="mailto:info@webriq.com" title="info@webriq.com">info@webriq.com</a></li>
-              <li><a href="tel://+14084694435" title="+14084694435">+1 408 469 4435</a> / <a href="tel://+61280911980" title="+61280911980">+61 2 8091 1980</a></li>
-              <li>80 Robinsons Road #02-00 Singapore 068898</li>
+            <ul className={`${stylesFooter.footerInfo} list-unstyled`}>
+              <li><LazyLoadImage className="mr-2" effect="blur" src="/img/email-icon.png"/><a href="mailto:info@webriq.com" title="info@webriq.com">info@webriq.com</a></li>
+              <li><LazyLoadImage className="mr-2" effect="blur" src="/img/phone-icon.png"/><a href="tel://+14084694435" title="+14084694435">+1 408 469 4435</a> / <a href="tel://+61280911980" title="+61280911980">+61 2 8091 1980</a></li>
+              <li><LazyLoadImage className="mr-2" effect="blur" src="/img/location-icon.png"/><span>80 Robinsons Road #02-00 Singapore 068898</span></li>
             </ul>
 
           </Col>

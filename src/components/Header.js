@@ -1,11 +1,13 @@
 import React, {Component} from "react";
 import { Link } from "gatsby";
-import stylesHeader from "./header.module.css";
+import "./header.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "react-sticky-header/styles.css";
-import StickyHeader from "react-sticky-header";
+// import Sticky from 'react-sticky-el';
 import logo from "../../static/img/logo.png";
+import logodark from "../../static/img/logo-dark.png";
 import bar from "../../static/img/bar.png";
+import bardark from "../../static/img/bardark.png";
 import SideBar from "react-sidebar";
 import SideBarNav from "./Sidebar";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -28,31 +30,26 @@ export default class Header extends Component {
   render() {
     return (
       <div className="header-menu">
-        <StickyHeader
-          className={stylesHeader.header}
-          header={
-            <Container className="py-4">
+            <Container className="py-3">
               <Row className="align-items-center">
-                <Col md={6}>
+                <Col xs={6}>
                   <Link to="/">
                     <LazyLoadImage
                       effect="opacity"
                       src={logo}
-                      alt="Hero Homes Search"
-                      className={`${stylesHeader.logoimg} mb-0`}
+                      alt="webriq"
+                      className={`logoimg mb-0`}
+                    />
+                    <LazyLoadImage
+                      effect="opacity"
+                      src={logodark}
+                      alt="webriq"
+                      className={`logodarkimg mb-0`}
                     />
                   </Link>
                 </Col>
-                <Col md={6}>
-                  <div className="text-right">
-                      <p className="mb-0" onClick={() => this.onSetSidebarOpen(true)}><Image src={bar}/></p>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          }
-        />
-        <SideBar
+                <Col xs={6}>
+                <SideBar
           sidebar={
             <div>
               <SideBarNav/>
@@ -66,12 +63,26 @@ export default class Header extends Component {
               background: "white",
               width: "265px",
               position: "fixed",
-              zIndex: "100"
-            }
+              zIndex: "9"
+            },
+             root: {position: "relative", overflow: 'visible'}, 
+             content: {
+                position: 'relative', 
+                overflow: 'visible',
+                cursor: 'pointer'
+              } 
           }}
         >
-          <p />
+          <div className="nav_handle text-right" onClick={() => this.onSetSidebarOpen(true)}>
+            <Image className="barlight mb-0" src={bar} alt="bar"/>
+            <Image className="bardark mb-0" src={bardark} alt="bar"/>
+        </div>
         </SideBar>
+                  
+                </Col>
+              </Row>
+            </Container>
+        
       </div>
     );
   }

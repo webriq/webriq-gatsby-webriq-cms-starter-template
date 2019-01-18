@@ -1,17 +1,19 @@
 import React from 'react'
 // import { Link } from 'gatsby'
-// import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+// import Sticky from 'react-sticky-el';
 import Header from './Header'
 import Footer from './Footer'
 import Hero from './Hero'
 import 'bootstrap/dist/css/bootstrap.css'
 import './layout.css'
+import stylesHero from './hero.module.css'
 import "@fortawesome/fontawesome-free/css/all.css";
 
 class Layout extends React.Component {
   render() {
     // const { location, title, children } = this.props
-    const { location, children } = this.props
+    const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
@@ -21,7 +23,19 @@ class Layout extends React.Component {
       )
     } else {
       header = (
-        <Hero/>
+        <section>
+          <div className={stylesHero.hero}>
+              <div className={stylesHero.heroSub}>
+                  <Container>
+                      <Row>
+                          <Col className="py-5">
+                            <h1 className="my-4">{title}</h1>
+                          </Col>
+                      </Row>
+                  </Container>
+              </div>
+          </div>
+        </section>
       )
     }
     return (

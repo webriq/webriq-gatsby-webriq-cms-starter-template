@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `WebriQ Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `WebriQ GLUE`,
+    author: `WebriQ`,
+    description: `CMS Static Websites, CMS Static Web Pages, Content Management System Static Websites, Content Management System Static Web Pages, Free CMS Static Pages, Cloud CMS Static Pages`,
+    siteUrl: `https://www.webriq.com/`,
     social: {
       twitter: `kylemathews`,
     },
@@ -58,7 +58,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Open Sans\:400,700`,
+          `Open Sans`,
           `Montserrat\:400,500,700,800` // you can also specify font weights and styles
         ]
       }
@@ -67,13 +67,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `WebriQ Blog`,
+        name: `WebriQ GLUE`,
         short_name: `WebriQ`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#f7f7f7`,
         display: `minimal-ui`,
-        icon: `assets/img/gatsby-icon.png`,
+        icon: `static/favicon.ico`,
       },
     },
     `gatsby-plugin-offline`,

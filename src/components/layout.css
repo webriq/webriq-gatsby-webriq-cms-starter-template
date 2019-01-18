@@ -3,7 +3,7 @@
 }
 
 body {
-  font: 16px/1.5 'Open Sans', sans-serif;
+  font: 16px/1.7 'Open Sans', sans-serif;
   font-weight: 400;
   color:#031121;
   padding-right: 0px !important;
@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: normal;
 }
 
-h1 { font-size:72px; }
+
 
 a {
   box-shadow: none;
@@ -55,3 +55,9 @@ a {
 
 .btn:not(:disabled):not(.disabled) {
 }
+
+main {
+  clear: both;
+}
+
+

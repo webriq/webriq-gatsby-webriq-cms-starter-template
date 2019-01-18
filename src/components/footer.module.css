@@ -1,5 +1,6 @@
 .footer {
   font-size: 14px;
+  clear: both;
 }
 @media (min-width: 300px) {
   .footer {
@@ -19,4 +20,9 @@
 }
 .subscription input {
   border:none;
+}
+.footer-info li {
+  display: flex;
+  align-items: start;
+  justify-content: start;
 }

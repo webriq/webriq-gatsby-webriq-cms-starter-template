@@ -35,7 +35,7 @@
 }
 
 @media (min-width: 1200px) {
-  .hero h1 {
+  .hero h1.herotitle {
     font-family: "Montserrat", sans-serif;
     font-size: 72px;
   }
