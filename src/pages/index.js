@@ -28,11 +28,11 @@ class IndexPage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} description={siteDescription} />
-        <section className="comparison my-5 py-5">
+        <section className="comparison pt-5">
               <div className="container">
                   <div className="row">
-                      <div className="col-md-6 old">
-                          <h2 className="mb-4">The Old Way</h2>
+                      <div className="col-md-6 mb-4 old">
+                          <h2 className="mb-md-4">The Old Way</h2>
                           <div className="comparison_content p-5" style={{backgroundImage: `url(/img/comparison_old.svg)`}}>
                               <ul className="list-unstyled my-4">
                                   <li>Fixed Templates</li>
@@ -46,7 +46,7 @@ class IndexPage extends React.Component {
                           </div>
                       </div>
                       <div className="col-md-6 future">
-                          <h2 className="mb-4">The WebriQ Way</h2>
+                          <h2 className="mb-md-4">The WebriQ Way</h2>
                           <div className="comparison_content p-5" style={{backgroundImage: `url(/img/comparison_future.svg)`}}>
                               <ul className="list-unstyled my-4">
                                   <li>Purpose based design</li>
@@ -67,7 +67,7 @@ class IndexPage extends React.Component {
                 <Row>
                     <Col xs={12}>
                         <div className="services_header mb-4 pb-4">
-                            <h2>Don’t build websites with last decade’s technologies, build it with <strong>WebriQ Glue</strong></h2>
+                            <h2>Build websites with <strong>WebriQ GLUE</strong>, a future proof Technology Stack</h2>
                         </div>
                     </Col>
                     <Col xs={12} sm={6} md={4}>
@@ -97,7 +97,7 @@ class IndexPage extends React.Component {
                 </Row>
             </Container>
     </section>
-        <section className="building-blocks my-5 py-5">
+        <section className="building-blocks my-md-5 py-5">
             <Container>
                 <Row>
                 <Col xs={12} className="text-center">
@@ -146,64 +146,24 @@ class IndexPage extends React.Component {
             </Container>
     </section>
         <section>
-        <div className="pricing">
+        <div className="pricing cta-home">
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-sm-10 mx-auto">
                         <div className="pricing_header text-center">
                             <h2 className="my-5">Pricing</h2>
                         </div>
-                        <div className="pricing_content row">
-                            <h4 className="mb-4 mx-3"><strong>WebriQ GLUE</strong> has a unit price of $3,000 per month, and includes</h4>
-                            <div className="col-12 col-sm-6">
-                                <ul className="list-unstyled">
-                                    <li>Dedicated team of designers, developers, content managers and devops</li>
-                                    <li>Ongoing design, development and devops</li>
-                                    <li>Ecommerce Development</li>
-                                    <li>Serverless operation</li>
-                                </ul>
-                            </div>
-                            <div className="col-12 col-sm-6">
-                                <ul className="list-unstyled">
-                                    <li>Level 1 and 2 technical support</li>
-                                    <li>Level 1 and 2 user support</li>
-                                    <li>Maintenance and updates</li>
-                                    <li>Analytics </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="pricing_content row">
+                        <div className="pricing_content text-center row">
+                            <h4 className="mb-4 mx-auto">WebriQ GLUE has a unit price of $3,000 per month, and includes</h4>
                             <div className="col-12">
-                                <h4 className="mt-4 mb-3">How can we sustain this <strong>pricing model</strong></h4>
-                                <p>We have been designing and developing websites and web apps for a long time, and we have seen all the deficiencies of project based pricing, per hour pricing, unknowns in devops, unknowns in maintenance, overruns, delays
-                                    etc.We have developed a very opinionated way of implementing websites, ecommerce carts and webapps</p>
-                            </div>
-                            <div className="col-12 col-sm-6">
-                                <ul className="list-unstyled">
-                                    <li>We completely moved away from a monolithic and centralized approach </li>
-                                    <li>We believe in a decentralized approach whereby each software component is chosen for it’s best in class, but at the same time replaceable with a newer best in class if needed. </li>
-                                    <li>Where we can not find a best in class critical functionality that is open sourced, we develop it ourselves, i.e. WebriQ Forms.</li>
+                                <ul className="list-unstyled list-inline">
+                                    <li className="mx-3 list-inline-item">No upfront Fees</li>
+                                    <li className="mx-3 list-inline-item">Scale up or down your units </li>
+                                    <li className="mx-3 list-inline-item">Cancel at any moment </li>
                                 </ul>
                             </div>
-                            <div className="col-12 col-sm-6">
-                                <ul className="list-unstyled">
-                                    <li>We are strong supporters of the API economy</li>
-                                    <li>We strongly believe in microservices when it comes to functionality and automation </li>
-                                    <li>We aim at 100% serverless operation, and we know how to do that.</li>
-                                    <li>We aim at 100% uptime, and we know how to do that </li>
-                                </ul>
-                            </div>
+                            <Link to="/pricing" className="d-block d-sm-inline-block btn btn-primary btn-inverted mx-auto">READ MORE</Link>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="cta mt-5" style={{ backgroundImage: `url(/img/cta-background.svg)` }}>
-            <div className="container">
-                <div className="row">
-                    <div className="col-12 col-sm-8 offset-sm-2 text-center">
-                        <h2 className="text-center mb-4">Want to know more, schedule a short 15 minute call with Alex Belding</h2>
-                        <Link to="/" className="btn btn-primary btn-inverted">SCHEDULE A CALL</Link>
                     </div>
                 </div>
             </div>
@@ -242,7 +202,7 @@ class IndexPage extends React.Component {
                   <div className="row">
                       <div className="col text-center">
                           <h4>Request Access</h4>
-                          <h2 className="display-4">Request Access</h2>
+                          <h2>WebriQ GLUE</h2>
                           <Link to="/" className="btn btn-primary mt-3">REQUEST ACCESS</Link>
                           <ul className="list-unstyled mt-4">
                               <li className="d-inline-block"><LazyLoadImage effect="blur" src={reacticon}/></li>
@@ -258,38 +218,39 @@ class IndexPage extends React.Component {
               </div>
           </div>
       </section>
-        <section className="my-5 py-5">
-        <Container>
-            <Row>
-                <div className="col-12 text-center">
-                    <h2 className="my-5">Latest Blog</h2>
-                </div>
-                <div className="col article-grid">
-                     {posts.map(({ node }) => {
-                      return (
-                      <div className="article main" key={node.id}>
-                        <div className="article-cover-image lazy" style={{
-                            backgroundImage: `url("${node.frontmatter.banner}")`
-                        }}/>
-                        <Link to={node.fields.slug} className="article-action-trigger"/>
-                        <div className="article-cover-gradient" style={{ backgroundImage: `url("${gradient}")`}}/>
-                        <div className="article-content">
-                            <h2 className="article-title">{node.frontmatter.title}</h2>
-                            <div className="article-info">
-                                <ul className="list-unstyled d-flex">
-                                    <li className="mr-4">{node.frontmatter.author}</li>
-                                    <li>{node.frontmatter.date}</li>
-                                </ul>
-                            </div>
+        <section className="mb-5 pb-5">
+          <Container>
+              <Row>
+                  <div className="col-12 text-center">
+                      <h2 className="my-5">Latest Blog</h2>
+                  </div>
+                  <div className="col article-grid">
+                       {posts.map(({ node }) => {
+                        return (
+                        <div className="article main" key={node.id}>
+                          <div className="article-cover-image lazy" style={{
+                              backgroundImage: `url("${node.frontmatter.banner}")`
+                          }}/>
+                          <Link to={node.fields.slug} className="article-action-trigger"/>
+                          <div className="article-cover-gradient" style={{ backgroundImage: `url("${gradient}")`}}/>
+                          <div className="article-content">
+                              <h2 className="article-title">{node.frontmatter.title}</h2>
+                              <div className="article-info">
+                                  <ul className="list-unstyled d-flex">
+                                      <li className="mr-4">{node.frontmatter.author}</li>
+                                      <li>{node.frontmatter.date}</li>
+                                  </ul>
+                              </div>
+                          </div>
                         </div>
-                      </div>  
-                      )
-                      
-                    })}
-                </div>
-            </Row>
-        </Container>
+                        )
+
+                      })}
+                  </div>
+              </Row>
+          </Container>
       </section>
+
       </Layout>
     )
   }
@@ -332,7 +293,7 @@ export const indexPageQuery = graphql`
         fields {
           slug
         }
-        
+
       }
     }
   }

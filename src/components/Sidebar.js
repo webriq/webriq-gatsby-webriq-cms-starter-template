@@ -13,7 +13,7 @@ const SideBar = () => (
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/what-is-my-home-worth">Prices</Link>
+          <Link to="/pricing">Pricing</Link>
         </li>
         <li>
           <Link to="/blog">Is WebriQ GLUE for YOU</Link>

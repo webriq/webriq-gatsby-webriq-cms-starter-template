@@ -7,8 +7,6 @@
 }
 .hero-sub {
   background-image: url(../../static/img/hero-patterns.svg);
-  background-position: right;
-  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -17,13 +15,23 @@
     color: #fff;
     padding: 100px 0 0 0;
   }
+  .hero-sub {
+    background-position: top;
+    background-size: 200%;
+  }
 }
 
+@media (min-width: 768px) {
+  .hero-sub {
+    background-position: right;
+    background-size: contain;
+  }
+}
 @media (min-width: 992px) {
   .hero {
     color: #fff;
     padding: 200px 0 0 0;
-  }
+  }  
 }
 
 @media (min-width: 1200px) {
@@ -37,4 +45,3 @@
   background-position: bottom right !important;
   padding: 0 0 200px 0;
 }
-

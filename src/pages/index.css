@@ -1,3 +1,4 @@
+
 .section {
   padding: 80px 0;
 }
@@ -22,12 +23,9 @@
 }
 
 .article.main {
-  width: 100%;
-  height: 100%;
   position: relative;
   float: left;
   background: #fff;
-  padding: 4px;
   overflow: hidden;
 }
 
@@ -40,19 +38,27 @@
 .article-content {
   position: absolute;
   z-index: 2;
-  margin: 25px;
+  margin: 0 25px;
   color: #fff;
-  bottom: 0;
+  bottom: 10px;
 }
 
 .article-grid {
   height: 60vh;
 }
 
-@media (min-width: 320px) {
-  .article:nth-child(1), .article:nth-child(2), .article:nth-child(3) {
+@media (min-width: 300px) {
+  .article {
     width: 100%;
-    height: 60%;
+    height: 50%;
+  }
+  h2 { font-size: 1.6rem; line-height: 1.4em}
+  h3 { font-size: 1.4rem; line-height: 1.4em}
+  h4 { font-size: 1.2rem; line-height: 1.4em}
+  .btn {
+    padding-right: 35px;
+    padding-left: 35px;
+    font-size: 16px
   }
 }
 
@@ -60,6 +66,10 @@
   .article:nth-child(1) {
     width: 50%;
     height: 100%;
+  }
+  h2 { font-size: 2.5rem}
+  .btn {
+    font-size: 18px
   }
 }
 
@@ -155,7 +165,7 @@
     background-size: cover;
     color: #000000;
     font-family: "Montserrat", sans-serif;
-    padding: 200px 0;
+    padding: 100px 0;
   }
 }
 
@@ -183,10 +193,6 @@
   color: #0658ff;
 }
 
-.pricing_header {
-  border-top: 1px solid #0658ff;
-}
-
 .pricing_content ul li {
   margin-bottom: 25px;
   padding-left: 45px;
@@ -194,17 +200,40 @@
 }
 
 .cta {
+  background: #0767ff url(/img/cta-background.svg) no-repeat top center;
   color: #fff;
-  padding: 150px 0;
+  padding: 50px 0;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.cta-home {
+  background: url(/img/cta-background.svg) no-repeat top center;
+  color: #fff;
+  padding: 50px 0 150px 0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
+.pricing_content ul.list-inline li {
+  background: url("../../static/img/checked.png") no-repeat top left;
+  padding-left: 55px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: #fff;
+}
 @media (min-width: 300px) {
   .building-blocks .mx-3 {
     margin: 0px !important;
   }
+  .pricing_content ul.d-flex {
+    display: block;
+    text-align: left;
+  }
+}
+.building-blocks .blocks_content img{
+  margin-bottom: 5px;
 }
 
 .building-blocks_header.mb-5:after {
@@ -247,8 +276,8 @@
 
 @media (min-width: 300px) {
   .services {
-    padding: 150px 0;
-    background-position: top right !important;
+    padding: 50px 0;
+    background-position: top center !important;
   }
 }
 
@@ -280,10 +309,3 @@
     background-size: cover;
   }
 }
-
-
-
-
-
-
-
