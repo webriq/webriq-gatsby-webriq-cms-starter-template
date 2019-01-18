@@ -28,7 +28,7 @@ class Layout extends React.Component {
               <div className={stylesHero.heroSub}>
                   <Container>
                       <Row>
-                          <Col className="py-5">
+                          <Col className="py-5 text-center">
                             <h1 className="my-4">{title}</h1>
                           </Col>
                       </Row>
