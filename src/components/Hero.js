@@ -29,7 +29,7 @@ class Hero extends React.Component {
               <div className={stylesHero.heroSub}>
                   <Container>
                       <Row>
-                          <Col className="py-5">
+                          <Col className="py-5 text-center">
                             <h1 className={`${stylesHero.herotitle} my-4`}>WebriQ Glue</h1>
                             <a className="d-block d-sm-inline-block btn btn-primary btn-inverted" href="https://app.webriq.com/account/create" target="_blank" rel="noopener noreferrer">WebriQ App</a>
                             <Button className="d-block d-sm-inline-block btn btn-primary btn-bordered" onClick={this.handleShow}>GLUE</Button>

@@ -5,6 +5,14 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import './index.css'
 import gradient from "../../static/img/image-gradient.png";
+import request from "../../static/img/request-access.svg";
+import reacticon from "../../static/img/ra-react.png";
+import gatsbyicon from "../../static/img/ra-gatsby.png";
+import htmlicon from "../../static/img/ra-html.png";
+import jsicon from "../../static/img/ra-js.png";
+import giticon from "../../static/img/ra-git.png";
+import githubicon from "../../static/img/ra-github.png";
+import netlifyicon from "../../static/img/ra-netlify.png";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
@@ -229,8 +237,8 @@ class IndexPage extends React.Component {
                               <h2 className="article-title">{node.frontmatter.title}</h2>
                               <div className="article-info">
                                   <ul className="list-unstyled d-flex">
-                                      <li className="mr-4">{node.frontmatter.author}</li>
-                                      <li>{node.frontmatter.date}</li>
+                                    <li className="mr-3"><i className="far fa-user-circle mr-2"/>{node.frontmatter.author}</li>
+                                    <li><i className="far fa-clock mr-2"/>{node.frontmatter.date}</li>
                                   </ul>
                               </div>
                           </div>
