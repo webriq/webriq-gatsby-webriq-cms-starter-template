@@ -13,7 +13,7 @@ import "@fortawesome/fontawesome-free/css/all.css";
 class Layout extends React.Component {
   render() {
     // const { location, title, children } = this.props
-    const { location, title, children } = this.props
+    const { location, title, children, customclass } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 

@@ -5,13 +5,13 @@
 }
 
 body {
-  font: 16px/1.7 'Open Sans', sans-serif;
+  font: 16px/1.7 'Open Sans', sans-serif !important;
   font-weight: 400;
   color:#031121;
   padding-right: 0px !important;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
   line-height: 1.2;
   text-transform: unset;
   font-style: normal;

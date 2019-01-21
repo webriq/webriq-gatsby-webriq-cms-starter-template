@@ -22,7 +22,7 @@ const SideBar = () => (
           <Link to="/blog">Blog</Link>
         </li>
         <li>
-          <Link to="/about">Showcase</Link>
+          <Link to="/showcase">Showcase</Link>
         </li>
       </ul>
       <ul className={`${stylesSidebar.leftIcons} list-unstyled d-flex justify-content-start align-items-center mt-5`}>

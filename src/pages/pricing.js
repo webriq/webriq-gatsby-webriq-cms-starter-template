@@ -11,8 +11,6 @@ class PricingPage extends React.Component {
     const siteTitle = "Pricing"
     const siteDescription = "Pricing description"
 
-
-
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} description={siteDescription} />
