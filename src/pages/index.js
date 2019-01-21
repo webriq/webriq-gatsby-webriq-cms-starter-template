@@ -268,6 +268,7 @@ export const indexPageQuery = graphql`
       }
     }
     allMarkdownRemark (
+    filter:{fileAbsolutePath:{regex: "/(posts)/"}} 
     limit: 3,
     sort: {
       fields: [frontmatter___date]

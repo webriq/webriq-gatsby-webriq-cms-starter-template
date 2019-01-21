@@ -75,10 +75,8 @@ class ShowCaseTemplate extends React.Component {
         <ListGroup.Item>
         <svg className="mr-2" width="24" height="24" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
         <path d="M22 0C9.8 0 0 9.8 0 22s9.8 22 22 22 22-9.8 22-22S34.2 0 22 0zm-7.7 20.5l2.5 2.5c.4.4.4 1 0 1.4l-1.4 1.4c-.4.4-1 .4-1.4 0l-2.5-2.5c-1.6-1.6-2.5-3.7-2.5-6 0-4.6 3.8-8.4 8.4-8.4 2.2 0 4.4.9 6 2.5l2.5 2.5c.4.4.4 1 0 1.4l-1.4 1.4c-.4.4-1 .4-1.4 0l-2.5-2.5c-.8-.8-1.9-1.3-3.1-1.3-2.4 0-4.4 2-4.4 4.4-.1 1.3.4 2.4 1.2 3.2zM26.6 35c-2.2 0-4.4-.9-6-2.5L18.1 30c-.4-.4-.4-1 0-1.4l1.4-1.4c.4-.4 1-.4 1.4 0l2.5 2.5c.8.8 1.9 1.3 3.1 1.3 2.4 0 4.4-2 4.4-4.4 0-1.2-.5-2.3-1.3-3.1L27.1 21c-.4-.4-.4-1 0-1.4l1.4-1.4c.4-.4 1-.4 1.4 0l2.5 2.5c1.6 1.6 2.5 3.7 2.5 6 .1 4.5-3.7 8.3-8.3 8.3z" fill="#006DF0"/>
-        </svg>
-        <a href={post.frontmatter.website} target="_blank" rel="noopener noreferrer" title={post.frontmatter.website}>{post.frontmatter.website}</a></ListGroup.Item>
+        </svg><a href={post.frontmatter.website} target="_blank" rel="noopener noreferrer" title={post.frontmatter.website}>{post.frontmatter.website}</a></ListGroup.Item>
         </ListGroup>
-
         </Col>
         </Row>
         <Row>
