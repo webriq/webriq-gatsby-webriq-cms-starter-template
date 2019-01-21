@@ -8,7 +8,7 @@ import messenger from "../../static/img/messenger.png";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-export default () => 
+export default () =>
   <footer className={stylesFooter.footer}>
     <div className="footer-bottom bg-dirty-white py-5">
       <Container>
@@ -47,12 +47,7 @@ export default () =>
     </div>
     <div className="copyright">
       <Container>
-        <p className="my-4">All rights reserved! WebriQ Pte Ltd  <Link to='/terms'>Terms of Use</Link> | <Link to='/cookies'>Cookies</Link></p>
+        <p className="my-4">All rights reserved! WebriQ Pte Ltd  <Link to='/terms'>Terms of Use</Link> | <Link to='/privacy'>Provicy Policy</Link> | <Link to='/gdpr'>About GDPR</Link> | <Link to='/cookies'>Cookies</Link></p>
       </Container>
     </div>
   </footer>
-  
-
-
-  
-
