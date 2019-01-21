@@ -12,15 +12,18 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 
 class ShowCaseTemplate extends React.Component {
   componentDidMount() {
-      const swiper = new Swiper('.swiper-container', {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        centeredSlides: true,
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      });  
+      if (window) {
+        const swiper = new Swiper('.swiper-container', {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          centeredSlides: true,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });  
+      }
+      
   }
   render() {
     const post = this.props.data.markdownRemark
