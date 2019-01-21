@@ -15,12 +15,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   text-transform: unset;
   font-style: normal;
-  letter-spacing: normal;
+  letter-spacing: normal !important;
 }
 
 h1 {
   font-size: 72px;
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 

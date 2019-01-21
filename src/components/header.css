@@ -38,7 +38,9 @@
 .mainpost .header-menu .logoimg,
 .mainpost .header-menu .barlight,
 .mainpage .logodarkimg,
-.mainpage .bardark {
+.mainpage .bardark,
+.showcasepage .logodarkimg,
+.showcasepage .bardark {
   display: none;
 }
 

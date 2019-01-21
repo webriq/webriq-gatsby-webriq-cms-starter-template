@@ -39,7 +39,7 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div className={location.pathname === rootPath ? "homepage" : "mainpage"}>
+      <div className={location.pathname === rootPath ? "homepage" : customclass || "mainpage"}>
         <Header/>
         {header}
         <main>
