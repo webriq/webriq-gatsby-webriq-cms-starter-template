@@ -74,7 +74,6 @@ export const pageQuery = graphql`
           slider_folder
           site
           website
-          category
         }
         fields {
           sslug
