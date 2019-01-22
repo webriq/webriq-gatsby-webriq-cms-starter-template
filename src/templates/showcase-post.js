@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
-import { rhythm } from '../utils/typography'
+// import { rhythm } from '../utils/typography'
 import { Container, Row, Col, Image, ListGroup } from "react-bootstrap";
 import Swiper from 'swiper/dist/js/swiper.esm.bundle';
 import 'swiper/dist/css/swiper.min.css'
@@ -11,15 +11,14 @@ import './showcasepost.css'
 class ShowCaseTemplate extends React.Component {
   componentDidMount() {
       if (window) {
-        const swiper = new Swiper('.swiper-container', {
+        new Swiper('.swiper-container', {
           slidesPerView: 1,
-          spaceBetween: 30,
           centeredSlides: true,
           navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
           },
-        });  
+        }); 
       }
       
   }
@@ -49,15 +48,11 @@ class ShowCaseTemplate extends React.Component {
         <Container className="py-5">
         <Row>
         <Col sm={10} md={6} className="mx-auto">
-        <ul className="list-unstyled d-flex align-items-center" >
-          <li className="mr-3"><i className="far fa-user-circle mr-1"/>by <span className="text-blue">{post.frontmatter.site}</span></li>
-          <li><i className="far fa-clock mr-1"/>{post.frontmatter.date}</li>
-        </ul>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <h3 className="my-4 text-blue">Key features include:</h3>
-        <ul class="list-unstyled features">
-        {post.frontmatter.features.split(",").map(tag =>(
-          <li>{tag}</li>
+        <ul className="list-unstyled features">
+        {post.frontmatter.features.split(",").map((tag, index) =>(
+          <li key={index}>{tag}</li>
         ))}
         </ul>
         </Col>
@@ -81,11 +76,7 @@ class ShowCaseTemplate extends React.Component {
         </Row>
         <Row>
         <Col>
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <hr/>
 
         <ul
           style={{

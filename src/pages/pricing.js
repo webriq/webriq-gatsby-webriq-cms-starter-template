@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { Container, Row } from "react-bootstrap";
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
@@ -75,7 +74,7 @@ class PricingPage extends React.Component {
                   <div className="row">
                       <div className="col-12 col-sm-8 offset-sm-2 text-center">
                           <h3 className="text-center my-4">Want to know more, schedule a short 15 minute call with Alex Belding</h3>
-                          <Link to="/" className="btn btn-primary btn-inverted">SCHEDULE A CALL</Link>
+                          <a href="https://calendly.com/alex-belding/webriq-glue/" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-inverted">SCHEDULE A CALL</a>
                       </div>
                   </div>
               </div>

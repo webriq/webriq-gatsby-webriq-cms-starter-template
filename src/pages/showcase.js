@@ -31,8 +31,8 @@ class ShowcasePage extends React.Component {
                 <div className="showcase-overlay"></div>
                 <div className="showcase-featured d-flex align-items-center">
                   <ul className="list-unstyled">
-                      {node.frontmatter.features.split(",").map(tag =>(
-                        <li>{tag}</li>
+                      {node.frontmatter.features.split(",").map((tag, index) =>(
+                        <li key={index}>{tag}</li>
                       ))}
                   </ul>
                 </div>

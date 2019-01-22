@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
-import { rhythm } from '../utils/typography'
+// import { rhythm } from '../utils/typography'
 import { Container, Row, Col } from "react-bootstrap";
 import './blogpost.css'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -12,12 +12,13 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = post.frontmatter.title
+    const siteDesc = post.frontmatter.metadesc || post.excerpt
     const { previous, next } = this.props.pageContext
 
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={post.frontmatter.title} description={post.excerpt} banner={post.frontmatter.banner} />
+        <SEO title={post.frontmatter.title} description={siteDesc} banner={post.frontmatter.banner} keywords={post.frontmatter.metakeywords}/>
         <section className="insight-page">
         <Container className="py-5">
         <Row>
@@ -29,12 +30,7 @@ class BlogPostTemplate extends React.Component {
         </ul>
         <LazyLoadImage effect="blur" src={post.frontmatter.banner} alt={siteTitle}/>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-
+        <hr/>
         <ul
           style={{
             display: `flex`,
@@ -87,9 +83,21 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(fromNow: true)
-        banner
         author
+        banner
+        shortdesc
+        updatedDate
+        cmsUserSlug
+        date(fromNow: true)
+        categories
+        leadtag
+        metadesc
+        metakeywords
+        features
+        slider
+        slider_folder
+        site
+        website
       }
     }
   }

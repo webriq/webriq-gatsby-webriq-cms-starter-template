@@ -13,8 +13,10 @@ import jsicon from "../../static/img/ra-js.png";
 import giticon from "../../static/img/ra-git.png";
 import githubicon from "../../static/img/ra-github.png";
 import netlifyicon from "../../static/img/ra-netlify.png";
+import Popup from '../components/Popup'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+
 
 class IndexPage extends React.Component {
   render() {
@@ -29,9 +31,9 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} description={siteDescription} />
         <section className="comparison pt-5">
-              <div className="container">
-                  <div className="row">
-                      <div className="col-md-6 mb-4 old">
+              <Container>
+                  <Row>
+                      <Col md={6} className="mb-4 old">
                           <h2 className="mb-md-4">The Old Way</h2>
                           <div className="comparison_content p-5" style={{backgroundImage: `url(/img/comparison_old.svg)`}}>
                               <ul className="list-unstyled my-4">
@@ -44,8 +46,8 @@ class IndexPage extends React.Component {
                                   <li>Complicated plugin system</li>
                               </ul>
                           </div>
-                      </div>
-                      <div className="col-md-6 future">
+                      </Col>
+                      <Col md={6} className="future">
                           <h2 className="mb-md-4">The WebriQ Way</h2>
                           <div className="comparison_content p-5" style={{backgroundImage: `url(/img/comparison_future.svg)`}}>
                               <ul className="list-unstyled my-4">
@@ -58,9 +60,13 @@ class IndexPage extends React.Component {
                                   <li>No plugins, only API’s </li>
                               </ul>
                           </div>
-                      </div>
-                  </div>
-              </div>
+                      </Col>
+                      <Col xs={12} className="text-center">
+                        <Link to="/is-webriq-glue-for-you" className="btn btn-primary mt-3">MORE</Link>
+                      </Col>
+                  </Row>
+                  
+              </Container>
       </section>
         <section className="services">
             <Container className="mt-5 pt-5">
@@ -147,14 +153,14 @@ class IndexPage extends React.Component {
     </section>
         <section>
         <div className="pricing cta-home">
-            <div className="container">
-                <div className="row">
-                    <div className="col-12 col-sm-10 mx-auto">
+            <Container>
+                <Row>
+                    <Col sm={10} className="mx-auto">
                         <div className="pricing_header text-center">
                             <h2 className="my-5">Pricing</h2>
                         </div>
                         <div className="pricing_content text-center row">
-                            <h4 className="mb-4 mx-auto">WebriQ GLUE has a unit price of $3,000 per month, and includes</h4>
+                            <h4 className="mb-4 mx-auto">WebriQ GLUE has a unit price of $3,000 per month</h4>
                             <div className="col-12">
                                 <ul className="list-unstyled list-inline">
                                     <li className="mx-3 list-inline-item">No upfront Fees</li>
@@ -164,15 +170,15 @@ class IndexPage extends React.Component {
                             </div>
                             <Link to="/pricing" className="d-block d-sm-inline-block btn btn-primary btn-inverted mx-auto">READ MORE</Link>
                         </div>
-                    </div>
-                </div>
-            </div>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     </section>
         <section className="language my-5 py-5">
-              <div className="container">
-                  <div className="row">
-                      <div className="col text-center">
+              <Container>
+                  <Row>
+                      <Col className="text-center">
                           <div className="language_header mb-5 mx-auto">
                               <h4>Beyond English and four other world languages, we also speak</h4>
                           </div>
@@ -192,18 +198,19 @@ class IndexPage extends React.Component {
                               <li className="d-inline-block"><LazyLoadImage effect="blur" src="/img/lan-webpack.png"/></li>
                               <li className="d-inline-block"><LazyLoadImage effect="blur" src="/img/lan-trello.png"/></li>
                           </ul>
-                      </div>
-                  </div>
-          </div>
+                      </Col>
+                  </Row>
+          </Container>
       </section>
         <section>
           <div className="request-access" style={{backgroundImage: `url("${request}")` }}>
-              <div className="container">
-                  <div className="row">
+              <Container>
+                  <Row>
                       <div className="col text-center">
                           <h4>Request Access</h4>
                           <h2>WebriQ GLUE</h2>
-                          <Link to="/" className="btn btn-primary mt-3">REQUEST ACCESS</Link>
+                          {/*<Link to="/" className="btn btn-primary mt-3" onClick={this.handleShow}>REQUEST ACCESS</Link>*/}
+                          <Popup classname="btn btn-primary mt-3">REQUEST ACCESS</Popup>
                           <ul className="list-unstyled mt-4">
                               <li className="d-inline-block"><LazyLoadImage effect="blur" src={reacticon}/></li>
                               <li className="d-inline-block"><LazyLoadImage effect="blur" src={gatsbyicon}/></li>
@@ -214,8 +221,8 @@ class IndexPage extends React.Component {
                               <li className="d-inline-block"><LazyLoadImage effect="blur" src={netlifyicon}/></li>
                           </ul>
                       </div>
-                  </div>
-              </div>
+                  </Row>
+              </Container>
           </div>
       </section>
         <section className="mb-5 pb-5">

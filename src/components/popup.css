@@ -1,0 +1,10 @@
+.modal-header {
+  background-color: #007bff;
+  color: #ffffff;
+}
+.modal-header h2 {
+  margin-bottom: 0;
+}
+.modal-header .close {
+  color: #ffffff;
+}

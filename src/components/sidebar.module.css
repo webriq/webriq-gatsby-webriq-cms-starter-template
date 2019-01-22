@@ -9,6 +9,11 @@
   font-size:18px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #031121;
-  
+  color: #031121; 
+}
+.menu li {
+  margin-bottom: 1rem;
+}
+.quicklinks a {
+  color: #484e54;
 }
