@@ -61,7 +61,7 @@ export default class Header extends Component {
           styles={{
             sidebar: {
               background: "white",
-              width: "265px",
+              width: "280px",
               position: "fixed",
               zIndex: "9"
             },

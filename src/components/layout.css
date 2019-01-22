@@ -56,7 +56,7 @@ a {
 
 .btn {
   font-family: "Montserrat", sans-serif;
-  padding: 12px 42px;  
+  padding: 12px 42px !important;   
   box-shadow: 0 6px 14px rgba(0,0,0, .22);
   text-transform: uppercase;
   letter-spacing: 2px;

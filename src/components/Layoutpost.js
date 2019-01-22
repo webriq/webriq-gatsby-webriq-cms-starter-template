@@ -7,7 +7,7 @@ import Footer from './Footer'
 import 'bootstrap/dist/css/bootstrap.css'
 import './layout.css'
 import './layoutpost.css'
-// import stylesHero from './hero.module.css'
+import Chatbot from './Chatbot'
 import gradient from "../../static/img/image-gradient.png";
 import "@fortawesome/fontawesome-free/css/all.css";
 
@@ -56,6 +56,7 @@ class Layout extends React.Component {
         <main>
           {children}
         </main>
+        <Chatbot/>
         <Footer/>
       </div>
     )
