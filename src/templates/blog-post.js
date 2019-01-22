@@ -18,7 +18,7 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={post.frontmatter.title} description={siteDesc} banner={post.frontmatter.banner} keywords={post.frontmatter.metakeywords}/>
+        <SEO title={post.frontmatter.title} description={siteDesc} banner={post.frontmatter.banner} metakeywords={post.frontmatter.metakeywords}/>
         <section className="insight-page">
         <Container className="py-5">
         <Row>
@@ -28,7 +28,7 @@ class BlogPostTemplate extends React.Component {
           <li className="mr-3"><i className="far fa-user-circle mr-1"/>by <span className="text-blue">{post.frontmatter.author}</span></li>
           <li><i className="far fa-clock mr-1"/>{post.frontmatter.date}</li>
         </ul>
-        <LazyLoadImage effect="blur" src={post.frontmatter.banner} alt={siteTitle}/>
+        <LazyLoadImage effect="blur" className="img-fluid" src={post.frontmatter.banner} alt={siteTitle}/>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr/>
         <ul
