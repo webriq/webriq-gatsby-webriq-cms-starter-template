@@ -7,6 +7,7 @@ class ChatbotPage extends React.Component {
       <MessengerCustomerChat
         pageId="167161029972460"
         appId="1678638095724206"
+        greetingDialogDisplay="fade"
       />
     );
   }

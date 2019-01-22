@@ -62,7 +62,7 @@ class IndexPage extends React.Component {
                           </div>
                       </Col>
                       <Col xs={12} className="text-center">
-                        <Link to="/is-webriq-glue-for-you" className="btn btn-primary mt-3">MORE</Link>
+                        <Link to="/is-webriq-glue-for-you" className="btn btn-primary mt-3" title="is webriq glue for you">MORE</Link>
                       </Col>
                   </Row>
                   
