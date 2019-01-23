@@ -5,7 +5,6 @@ import { Container, Row, Col} from "react-bootstrap";
 import Header from './Header'
 import Footer from './Footer'
 import Hero from './Hero'
-import Chatbot from './Chatbot'
 import 'bootstrap/dist/css/bootstrap.css'
 import './layout.css'
 import stylesHero from './hero.module.css'
@@ -46,7 +45,6 @@ class Layout extends React.Component {
         <main>
           {children}
         </main>
-        <Chatbot/>
         <Footer/>
       </div>
     )
