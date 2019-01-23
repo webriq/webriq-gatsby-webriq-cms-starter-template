@@ -243,7 +243,7 @@ class IndexPage extends React.Component {
                           <div className="article-content">
                               <h2 className="article-title">{node.frontmatter.title}</h2>
                               <div className="article-info">
-                                  <ul className="list-unstyled d-flex">
+                                  <ul className="list-unstyled d-flex flex-wrap">
                                     <li className="mr-3"><i className="far fa-user-circle mr-2"/>{node.frontmatter.author}</li>
                                     <li><i className="far fa-clock mr-2"/>{node.frontmatter.date}</li>
                                   </ul>

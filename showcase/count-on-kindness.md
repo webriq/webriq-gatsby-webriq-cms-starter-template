@@ -8,7 +8,7 @@ slider: "slider-1-countonkindness,slider-2-countonkindness,slider-3-countonkindn
 slider_folder: countonkindness
 site: Tara Cameron
 website: "https://countonkindness.global"
-date: 2017-02-21T02:10:00.000Z
+date: 2019-01-23T02:10:00.000Z
 ---
 
 [Count on Kindness](https://www.countonkindness.global) and [Count on Kindness - Registry](https://registry.countonkindness.global/) is a global combined website and small business registry. It is a website and a registry where all living beings will be noticed, will be heard and will belong. To be eligible to the Count on Kindness Registry, Just be kind. Be willing to open your doors to people of all cultures, ages, genders, skin colors, sexual preferences, and faiths, removing all fear of discrimination and separateness.

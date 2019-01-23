@@ -6,5 +6,91 @@
   margin-bottom: 0;
 }
 .modal-header .close {
-  color: #ffffff;
+  color: #ffffff !important;
+  outline: none;
+}
+
+/* form starting stylings ------------------------------- */
+._field-wrapper        { 
+  position:relative; 
+  margin-bottom:30px; 
+}
+._field-wrapper input         {
+  font-size: 18px;
+  padding: 10px 10px 10px 0px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+  
+}
+._field-wrapper input:focus { 
+  outline:none; 
+  box-shadow: none;
+}
+
+
+/* active state */
+/*._field-wrapper input:valid ~ label    {
+  top:-20px;
+  font-size:14px;
+  color:#057aff;
+}*/
+
+/* BOTTOM BARS ================================= */
+.bar  { position:relative; display:block; width:100%; }
+.bar:before, .bar:after   {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#057aff; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+._field-wrapper input:focus ~ .bar:before, ._field-wrapper input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+._field-wrapper input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from { background:#057aff; }
+  to  { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#057aff; }
+  to  { width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+  from { background:#057aff; }
+  to  { width:0; background:transparent; }
 }

@@ -28,7 +28,7 @@ class BlogPostTemplate extends React.Component {
           <li className="mr-3"><i className="far fa-user-circle mr-1"/>by <span className="text-blue">{post.frontmatter.author}</span></li>
           <li><i className="far fa-clock mr-1"/>{post.frontmatter.date}</li>
         </ul>
-        <LazyLoadImage effect="blur" className="img-fluid" src={post.frontmatter.banner} alt={siteTitle}/>
+        <LazyLoadImage effect="blur" className="img-fluid mb-4" src={post.frontmatter.banner} alt={siteTitle}/>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr/>
         <ul

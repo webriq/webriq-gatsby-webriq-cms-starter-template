@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 10vw;
   font-weight: 700 !important;
 }
 
@@ -60,7 +60,7 @@ a {
   box-shadow: 0 6px 14px rgba(0,0,0, .22);
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 0 5px 10px 5px;
+  margin: 0 5px 15px 5px;
 }
 
 .btn-primary.btn-bordered {
@@ -75,8 +75,11 @@ main {
   clear: both;
 }
 
-.mainpage footer, .mainpost footer {
-  margin-top: 0px;
+
+@media (min-width: 767px) {
+  h1 {
+    font-size: 72px;
+  }
 }
 
 

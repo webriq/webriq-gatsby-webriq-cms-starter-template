@@ -12,8 +12,7 @@ date: 2019-01-12T09:21:00.000Z
 author: "Philippe Bodart "
 ---
 
- Static Websites with Headless WordPress via REST API 
-======================================================
+# Static Websites with Headless WordPress via REST API 
 
 Static websites are great but they still need some kind of content management system. And committing Markdown files to GitHub isn’t as friendly as it should be. Run your site on a purpose-built, multi-cloud infrastructure that’s designed for speed, automated to scale, and intrinsically secure is the  option for the majority of users including developers. So we end up using tools such as [Prose](http://prose.io/), [Netlify CMyS](https://www.netlifycms.org/) or [Contentful](https://www.contentful.com/) for the editing interface, user authentication and handling the media files.
 

@@ -3,6 +3,7 @@ import { Modal, Button, Form } from "react-bootstrap";
 import './popup.css'
 
 class Popup extends React.Component {
+      
 
     constructor(props, context) {
       super(props, context);
@@ -41,7 +42,7 @@ class Popup extends React.Component {
             <p style={{fontSize: `18px`}}>WebriQ JAM Stack</p>
             </Modal.Title>
           </Modal.Header>
-          <Modal.Body>
+          <Modal.Body className="px-4 py-5">
           <div className="_form_7">
             <Form method="POST" action="https://webriqservices.activehosted.com/proc.php" id="_form_7_" className="_form _form_7 _inline-form">
               <Form.Control type="hidden" name="u" value="7" />
@@ -54,20 +55,26 @@ class Popup extends React.Component {
               <div className="_form-content">
                 <div className="_form_element _x16079498 _full_width mb-4">
                   <div className="_field-wrapper">
-                    <Form.Label htmlFor="fullname" className="_form-label">Full Name *</Form.Label>
+                    <Form.Label htmlFor="fullname" className="_form-label mb-0">Full Name *</Form.Label>
                     <Form.Control size="lg" id="fullname" className="form-control" type="text" name="fullname" required />
+                    <span className="highlight"></span>
+                    <span className="bar"></span>
                   </div>
                 </div>
                 <div className="_form_element _x30552343 _full_width mb-4">
                   <div className="_field-wrapper">
-                    <Form.Label htmlFor="email" className="_form-label">Business Email *</Form.Label>
-                    <Form.Control size="lg" id="email" className="form-control" type="text" name="email" required/>
+                    <Form.Label htmlFor="email" className="_form-label mb-0">Business Email *</Form.Label>
+                    <Form.Control size="lg" id="email" className="form-control" type="text" name="email" required />
+                    <span className="highlight"></span>
+                    <span className="bar"></span>
                   </div>
                 </div>
                 <div className="_form_element _field4 _full_width mb-4">
                   <div className="_field-wrapper">
-                    <Form.Label htmlFor="website" className="_form-label">Website Address</Form.Label>
-                    <Form.Control size="lg" id="website" className="form-control" type="text" name="field[4]" />
+                    <Form.Label htmlFor="website" className="_form-label mb-0">Website Address</Form.Label>
+                    <Form.Control size="lg" id="website" className="form-control" type="text" name="website" required />
+                    <span className="highlight"></span>
+                    <span className="bar"></span>
                   </div>
                 </div>
                 <div className="_form_element _x94859880 _full_width mb-4">

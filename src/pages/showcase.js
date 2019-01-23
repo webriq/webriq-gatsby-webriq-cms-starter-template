@@ -58,6 +58,7 @@ export const pageQuery = graphql`
   query {
   allMarkdownRemark (
      filter:{fileAbsolutePath:{regex: "/(showcase)/"}} 
+     sort: { fields: [frontmatter___date], order: DESC }
     ){
     group (field: frontmatter___features) {
       fieldValue

@@ -13,7 +13,6 @@ export default class Header extends Component {
   componentDidMount() {
     if(window) {
       window.onloadCallback = function() {
-        // console.log("grecaptcha is ready!", grecaptcha);
         var eewebformsubmit = document.getElementById("eesubmit");
         window.grecaptcha.render('webformcaptcha', { 'sitekey': '6Lca-iUUAAAAAAQ6T6vYEAp3YybZWpeKUXRJ5E8S', 'callback': function(response) { eewebformsubmit.disabled = false; } });
       };
@@ -84,11 +83,11 @@ export default class Header extends Component {
                     </button>
                   </fieldset>
                 </Form>
-                <ul className={`${stylesFooter.footerIcons} list-unstyled d-flex justify-content-start align-items-center mt-4`}>
-                  <li className="mr-3"><a href="https://twitter.com/WebriQ" title="twitter" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" src={twitter}/></a></li>
-                  <li className="mr-3"><a href="https://www.linkedin.com/in/philippebodart/" title="philippebodart linkedin" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" src={linkedin}/></a></li>
-                  <li className="mr-3"><a href="https://www.messenger.com/t/WebriQHQ" title="webriq goes mad" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" src={webriqmad}/></a></li>
-                  <li className="mr-3"><a href="https://www.linkedin.com/in/alexbelding/" title="alexbelding linkedin" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" src={linkedin}/></a></li>
+                <ul className={`${stylesFooter.footerIcons} list-unstyled d-flex justify-content-start align-items-center mt-3`}>
+                  <li className="mr-3"><a href="https://twitter.com/WebriQ" title="twitter" target="_blank" rel="noopener noreferrer"><LazyLoadImage width="35" effect="blur" src={twitter} alt="twitter"/></a></li>
+                  <li className="mr-3"><a href="https://www.linkedin.com/in/philippebodart/" title="philippebodart linkedin" target="_blank" rel="noopener noreferrer"><LazyLoadImage width="35" effect="blur" src={linkedin} alt="philippebodart linkedin"/></a></li>
+                  <li className="mr-3"><a href="https://www.messenger.com/t/WebriQHQ" title="webriq goes mad" target="_blank" rel="noopener noreferrer"><LazyLoadImage width="35" effect="blur" src={webriqmad} alt="webriq goes mad"/></a></li>
+                  <li className="mr-3"><a href="https://www.linkedin.com/in/alexbelding/" title="alexbelding linkedin" target="_blank" rel="noopener noreferrer"><LazyLoadImage width="35" effect="blur" src={linkedin} alt="alexbelding linkedin"/></a></li>
                 </ul>
               </Col>
 

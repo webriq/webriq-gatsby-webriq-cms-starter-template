@@ -3,10 +3,10 @@ import { Link, graphql } from 'gatsby'
 import { Container, Row, Col } from "react-bootstrap";
 import Layout from '../components/Layoutpost'
 import SEO from '../components/seo'
-// import { rhythm } from '../utils/typography'
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 class BlogIndex extends React.Component {
+  
   render() {
     const { data } = this.props
     const siteTitle = `Blog`
@@ -21,7 +21,7 @@ class BlogIndex extends React.Component {
         />
         <section className="article-list py-5">
         <Container style={{ maxWidth: '1192px'}}>
-        <h3 className="text-blue mb-4">All stories in blogs</h3>
+        <h2 className="text-blue mb-4">All stories in blogs</h2>
         <Row>
           {posts.slice(4).map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
