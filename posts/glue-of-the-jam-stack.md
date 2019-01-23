@@ -8,7 +8,7 @@ author: Philippe Bodart
 leadtag: null
 metadesc: WebriQ is the GLUE of the JAM Stack
 metakeywords: "JAM Stack, Headless CMS, GIT based CMS"
-banner: https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/img/uploads/4e99afcd81a2b8876285c3ee294f56095cf26709/1_udwr6iopiem_vyoexbvbhw.png
+banner: 1_udwr6iopiem_vyoexbvbhw
 ---
 
 # Things to Remember

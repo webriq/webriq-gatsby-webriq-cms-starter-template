@@ -8,7 +8,7 @@ author: Philippe Bodart
 leadtag: "jamstack, CMS Static websites"
 metadesc: "A revolution is happening in web technologies. It all starts with Javascript, the GLUE in any web build. "
 metakeywords: "jamstack, cms static websites, headless cms"
-banner: https://res.cloudinary.com/dnla85pdq/image/upload/w_840,h_480,c_thumb/v1540269241/webriq/images/marvin-meyer-571072-unsplash
+banner: marvin-meyer-571072-unsplash
 ---
 ##### A revolution is happening in web technologies. It all starts with Javascript, the GLUE in any web build.
 

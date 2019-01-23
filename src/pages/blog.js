@@ -26,11 +26,11 @@ class BlogIndex extends React.Component {
           {posts.slice(4).map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-              <Col md={4} lg={3} key={node.id}>
+              <Col sm={6} md={4} lg={3} key={node.id}>
                 <LazyLoadComponent>
                 <div className="article-list-banner mb-2" 
                   style={{ 
-                    backgroundImage: `url("${node.frontmatter.banner}")`,
+                    backgroundImage: `url("https://res.cloudinary.com/dnla85pdq/image/upload/w_320,h_200,c_thumb/v1540269241/webriq/images/${node.frontmatter.banner}")`,
                     backgroundPosition: `center center`,
                     backgroundSize:`cover`,
                     height: `180px`

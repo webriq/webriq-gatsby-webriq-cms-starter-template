@@ -35,7 +35,7 @@ class Layout extends React.Component {
                 {this.props.lists.slice(0,4).map(list => (
                     <div className="blog-article main" key={list.id}>
                       <div className="blog-article-cover-image lazy" style={{
-                          backgroundImage: `url(${list.frontmatter.banner})`
+                          backgroundImage: `url(https://res.cloudinary.com/dnla85pdq/image/upload/w_840,h_480,c_thumb/v1540269241/webriq/images/${list.frontmatter.banner})`
                       }}/>
                       <Link to={list.fields.slug} className="blog-article-action-trigger"/>
                       <div className="blog-article-cover-gradient" style={{ backgroundImage: `url("${gradient}")`}}/>

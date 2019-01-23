@@ -1,7 +1,7 @@
 ---
 title: Differences between Static and Dynamic Websites
 author: Philippe Bodart
-banner: /img/uploads/1458052308static.jpg
+banner: 1458052308static
 shortdesc: "A summary of the main differences between Dynamic websites, build with tools like Wordpress and Static websites build with tools like WebriQ CMS"
 cmsUserSlug: ""
 date: 2016-09-18T16:00:00.000Z

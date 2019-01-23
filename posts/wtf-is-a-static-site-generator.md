@@ -8,7 +8,7 @@ author: Philippe Bodart
 leadtag: Jamstack
 metadesc: The future of Static Site Generators
 metakeywords: "Static Site Generators, JAmstack"
-banner: /img/uploads/farzad-nazifi-71686-unsplash.jpg
+banner: farzad-nazifi-71686-unsplash
 ---
 
 The difference between a Wordpress website and a Static site is well described in one of David Walsh blog posts. 

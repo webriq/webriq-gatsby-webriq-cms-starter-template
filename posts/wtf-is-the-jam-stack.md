@@ -7,7 +7,7 @@ date: 2017-11-28T00:00:00.000Z
 author: Philippe Bodart
 leadtag: null
 metadesc: "The JAM Stack approach to web development has been emerging for several years, but really took off in 2017. More a design philosophy than an explicit framework, JAM Stack takes the concept of static, database-free websites to the next level via an architecture advocates are calling “the future of the internet.”"
-banner: /img/uploads/jamstack.jpg
+banner: jamstack
 ---
 
 The JAM Stack approach to web development has been emerging for several years, but really took off in 2017. More a design philosophy than an explicit framework, JAM Stack takes the concept of static, database-free websites to the next level via an architecture advocates are calling “the future of the internet.”

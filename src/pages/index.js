@@ -236,7 +236,7 @@ class IndexPage extends React.Component {
                         return (
                         <div className="article main" key={node.id}>
                           <div className="article-cover-image lazy" style={{
-                              backgroundImage: `url("${node.frontmatter.banner}")`
+                              backgroundImage: `url("https://res.cloudinary.com/dnla85pdq/image/upload/w_840,h_480,c_thumb/v1540269241/webriq/images/${node.frontmatter.banner}")`
                           }}/>
                           <Link to={node.fields.slug} className="article-action-trigger"/>
                           <div className="article-cover-gradient" style={{ backgroundImage: `url("${gradient}")`}}/>

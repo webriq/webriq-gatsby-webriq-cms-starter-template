@@ -1,7 +1,7 @@
 ---
 title: Cloud CMS for Static Websites
 author: Philippe Bodart
-banner: /img/uploads/cloud-cms-for-static-websites.jpg
+banner: cloud-cms-for-static-websites
 shortdesc: The missing link for building and updating Static Websites
 cmsUserSlug: ""
 date: 2016-06-06T16:00:00.000Z

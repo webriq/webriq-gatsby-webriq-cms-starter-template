@@ -3,7 +3,7 @@ title: Jam Stack your monolithic CMS system in to the Closet
 shortdesc: "Jam Stack is a set of development techniques that creates custom made websites that fit your needs, whether they are small needs or bigger needs. It is fast, easily scalable, has a far better user experience and is more secure. And the techniques have gained quite a bit of momentum recently."
 updatedDate: 2018-09-19T05:02:33.046Z
 cmsUserSlug: traditional-cms-versus-headless-cms
-banner: /img/uploads/maxresdefault.jpg
+banner: maxresdefault
 leadtag: Traditional CMS versus Headless CMS
 metadesc: The many advantages of the Jamstack and a headless CMS approach
 metakeywords: "Headless CMS, API CMS, GIT CMS, Wordpress"

@@ -3,7 +3,7 @@ title: "The web has changed, so must our way to publish content for the web."
 shortdesc: A new generation of CMS systems is emerging. Headless CMS are about to conquer the web publishing market. Why should your company jump on the bandwagon.
 updatedDate: 2019-01-21T04:44:32.829Z
 cmsUserSlug: why-headless-cms-system
-banner: /img/uploads/Unknown123.jpg
+banner: Unknown123
 leadtag: "The web has changed, so must our way to publish content for the web."
 metadesc: A new generation of CMS systems is emerging. Headless CMS are about to conquer the web publishing market
 metakeywords: "Headless CMS, API economy, React, GraphQL"

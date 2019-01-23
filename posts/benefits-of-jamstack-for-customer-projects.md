@@ -3,7 +3,7 @@ title: Benefits of Jamstack for customer projects
 shortdesc: "On the Internet, change is constant. The biggest change in the web development world is the move away from do-it-all content management systems like Wordpress and the rise of the Jamstack. "
 updatedDate: 2018-10-23T04:37:11.075Z
 cmsUserSlug: ""
-banner: /img/uploads/rawpixel-570911-unsplash.jpeg
+banner: rawpixel-570911-unsplash
 leadtag: Jamstack for customer projects
 metadesc: ""
 metakeywords: "Jamstack, Static websites, CMS Static websites"

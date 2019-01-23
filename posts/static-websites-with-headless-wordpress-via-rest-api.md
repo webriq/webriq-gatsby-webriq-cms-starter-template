@@ -3,7 +3,7 @@ title: Static Websites with Headless WordPress via REST API
 shortdesc: "Static websites are great but they still need some kind of content management system. And committing Markdown files to GitHub isnt a friendly option for the majority of users including developers. So we end up using tools such as Prose, Netlify CMS\_or Contentful\_for the editing interface, user authentication and handling the media files. Usually it [] Readmore"
 updatedDate: 2019-01-21T04:39:08.082Z
 cmsUserSlug: static-websites-with-headless-wordpress-via-rest-api
-banner: /img/uploads/Unknown1234.jpg
+banner: Unknown1234
 leadtag: "Headless CMS, Wordpress Rest API"
 metadesc: How to build Static websites with Headless Wordpress and a REST API
 metakeywords: "Headless CMS, Wordpress Rest API, Static site generator, Jamstack websites"

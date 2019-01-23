@@ -18,7 +18,7 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={post.frontmatter.title} description={siteDesc} banner={post.frontmatter.banner} metakeywords={post.frontmatter.metakeywords}/>
+        <SEO title={post.frontmatter.title} description={siteDesc} banner={`https://res.cloudinary.com/dnla85pdq/image/upload/w_840,h_480,c_thumb/v1540269241/webriq/images/${post.frontmatter.banner}`} metakeywords={post.frontmatter.metakeywords}/>
         <section className="insight-page">
         <Container className="py-5">
         <Row>
@@ -28,7 +28,7 @@ class BlogPostTemplate extends React.Component {
           <li className="mr-3"><i className="far fa-user-circle mr-1"/>by <span className="text-blue">{post.frontmatter.author}</span></li>
           <li><i className="far fa-clock mr-1"/>{post.frontmatter.date}</li>
         </ul>
-        <LazyLoadImage effect="blur" className="img-fluid mb-4" src={post.frontmatter.banner} alt={siteTitle}/>
+        <LazyLoadImage effect="blur" className="img-fluid mb-4" src={`https://res.cloudinary.com/dnla85pdq/image/upload/w_840,h_480,c_thumb/v1540269241/webriq/images/${post.frontmatter.banner}`} alt={siteTitle}/>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr/>
         <ul

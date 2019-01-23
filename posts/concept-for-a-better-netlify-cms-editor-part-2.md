@@ -1,7 +1,7 @@
 ---
 title: Concept for a better Netlify CMS editor / Part 2
 author: Philippe Bodart
-banner: /img/uploads/software-as-a-service-saas.jpg
+banner: software-as-a-service-saas
 shortdesc: "This post is going to be more practical and explain some solutions that could be used to either improve or be starting stone for the next Netlify\_CMS that the community could build upon. Here are some goals from all the data and research gathered in part 1 that Ill try to solve  Continued"
 updatedDate: 2017-06-22T10:03:10.740Z
 cmsUserSlug: webriq-cms
