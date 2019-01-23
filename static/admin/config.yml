@@ -44,17 +44,17 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Site Owner", name: "site", widget: "string"}
       - {label: "Website Link", name: "website", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-  - name: "data"
-    label: "Data"
-    files:
-      - name: "characters"
-        label: "Characters"
-        file: "data/characters.json"
-        fields:
-          - label: "Characters"
-            name: "data"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Image", name: "image", widget: "image", media_folder: "static/img"}
-              - {label: "Description", name: "description", widget: "string"}
+  # - name: "data"
+  #   label: "Data"
+  #   files:
+  #     - name: "characters"
+  #       label: "Characters"
+  #       file: "data/characters.json"
+  #       fields:
+  #         - label: "Characters"
+  #           name: "data"
+  #           widget: "list"
+  #           fields:
+  #             - {label: "Name", name: "name", widget: "string"}
+  #             - {label: "Image", name: "image", widget: "image", media_folder: "static/img"}
+  #             - {label: "Description", name: "description", widget: "string"}
