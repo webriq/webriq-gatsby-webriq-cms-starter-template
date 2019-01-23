@@ -102,7 +102,7 @@ class ShowCaseTemplate extends React.Component {
             )}
           </li>
         </ul>
-        <Link to="/blog">Take Me Home</Link>
+        <Link to="/showcase">Take Me Home</Link>
         <br />
         <br />
         </Col>

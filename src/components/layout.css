@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:400,600,700,800');
 
 html {
   font-family: sans-serif;
@@ -24,12 +24,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   text-transform: unset;
   font-style: normal;
+  font-weight: 600 !important;
   letter-spacing: normal !important;
 }
 
 h1 {
-  font-size: 10vw;
-  font-weight: 700 !important;
+  font-size: 10vw !important;
 }
 
 
@@ -78,7 +78,7 @@ main {
 
 @media (min-width: 767px) {
   h1 {
-    font-size: 72px;
+    font-size: 72px !important;
   }
 }
 

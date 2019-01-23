@@ -13,9 +13,9 @@ class Hero extends React.Component {
                   <Container>
                       <Row>
                           <Col className="py-5 text-center">
-                            <h1 className={`${stylesHero.herotitle} my-4`}>WebriQ Glue</h1>
+                            <h1 className={`${stylesHero.herotitle} my-4`}>WebriQ GLUE</h1>
                             <a className="d-block d-sm-inline-block btn btn-primary btn-inverted" href="https://app.webriq.com/account/create" target="_blank" rel="noopener noreferrer">WebriQ App</a>
-                            <Popup classname="btn btn-primary btn-bordered">Glue</Popup>
+                            <Popup classname="btn btn-primary btn-bordered w-100">GLUE</Popup>
                           </Col>
                       </Row>
                   </Container>

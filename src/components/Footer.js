@@ -66,9 +66,9 @@ export default class Header extends Component {
                     <Button type="submit" name="submit" variant="primary" id="eesubmit" disabled="">SUBSCRIBE</Button>
                     <input type="hidden" name="publicaccountid" value="992d3f2b-bf67-4d2f-854d-33bf808d21c1"/>
                     <input type="hidden" name="publicformid" value="43c4c9c7-a55a-4fd2-a0a5-56ecdb7576f5"/>
-                    <input type="hidden" name="returnUrl" value="https://webriq.us/subscription-successful"/>
-                    <input type="hidden" name="activationReturnUrl" value="https://webriq.us/subscription-active"/>
-                    <input type="hidden" name="alreadyactiveurl" value="https://webriq.us/"/>
+                    <input type="hidden" name="returnUrl" value="https://webriq.com/subscription-successful"/>
+                    <input type="hidden" name="activationReturnUrl" value="https://webriq.com/subscription-active"/>
+                    <input type="hidden" name="alreadyactiveurl" value="https://webriq.com/"/>
                     <input type="hidden" name="activationTemplate" value=""/>
                     <input type="hidden" name="source" value="WebForm"/>
                     <input type="hidden" id="ewf_captcha" name="captcha" value="true"/>
@@ -86,7 +86,7 @@ export default class Header extends Component {
                 <ul className={`${stylesFooter.footerIcons} list-unstyled d-flex justify-content-start align-items-center mt-3`}>
                   <li className="mr-3"><a href="https://twitter.com/WebriQ" title="twitter" target="_blank" rel="noopener noreferrer"><LazyLoadImage width="35" effect="blur" src={twitter} alt="twitter"/></a></li>
                   <li className="mr-3"><a href="https://www.linkedin.com/in/philippebodart/" title="philippebodart linkedin" target="_blank" rel="noopener noreferrer"><LazyLoadImage width="35" effect="blur" src={linkedin} alt="philippebodart linkedin"/></a></li>
-                  <li className="mr-3"><a href="https://www.messenger.com/t/WebriQHQ" title="webriq goes mad" target="_blank" rel="noopener noreferrer"><LazyLoadImage width="35" effect="blur" src={webriqmad} alt="webriq goes mad"/></a></li>
+                  <li className="mr-3"><a href="https://webriq.services" title="webriq goes mad" target="_blank" rel="noopener noreferrer"><LazyLoadImage width="35" effect="blur" src={webriqmad} alt="webriq goes mad"/></a></li>
                   <li className="mr-3"><a href="https://www.linkedin.com/in/alexbelding/" title="alexbelding linkedin" target="_blank" rel="noopener noreferrer"><LazyLoadImage width="35" effect="blur" src={linkedin} alt="alexbelding linkedin"/></a></li>
                 </ul>
               </Col>

@@ -34,7 +34,7 @@ const SideBar = () => (
       <ul className={`${stylesSidebar.leftIcons} list-unstyled d-flex justify-content-start align-items-center`}>
         <li className="mr-3"><a href="https://twitter.com/WebriQ" title="twitter" target="_blank" rel="noopener noreferrer"><Image width="35" src={twitter} alt="twitter"/></a></li>
         <li className="mr-3"><a href="https://www.linkedin.com/in/philippebodart/" title="philippebodart linkedin" target="_blank" rel="noopener noreferrer"><Image width="35" src={linkedin} alt="philippebodart linkedin"/></a></li>
-        <li className="mr-3"><a href="https://www.messenger.com/t/WebriQHQ" title="webriq goes mad" target="_blank" rel="noopener noreferrer"><Image width="35" src={webriqmad} alt="webriq goes mad"/></a></li>
+        <li className="mr-3"><a href="https://webriq.services" title="webriq goes mad" target="_blank" rel="noopener noreferrer"><Image width="35" src={webriqmad} alt="webriq goes mad"/></a></li>
         <li className="mr-3"><a href="https://www.linkedin.com/in/alexbelding/" title="alexbelding linkedin" target="_blank" rel="noopener noreferrer"><Image width="35" src={linkedin} alt="alexbelding linkedin"/></a></li>
       </ul>
     </div>

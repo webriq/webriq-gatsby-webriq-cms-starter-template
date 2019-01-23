@@ -23,7 +23,7 @@ class GluePage extends React.Component {
                       </div>
                       <div className="col-md-6 old">
                          <div className="webriq-glue_content noborder py-sm-3 py-lg-5">
-                           <p>One of our customers, Blinds Wholesale, is on our legacy platform (similar to WordPress) for many years now. And although the site really looks professional, is fully secured, has a shopping cart and many returning visitors and customers - it basically lacks the performance it should have, especially on mobile devices. The thing we needed to change was the monolithic approach that was the standard years ago. This approach was all about thinking that all websites were equal and they should all have the same features.    Change content TO Blinds Wholesale, is on our legacy platform (similar to WordPress) for many years now. And although the site really looks professional, is fully secured, has a shopping cart and many returning visitors and customers - it basically lacks the performance it should have, especially on mobile devices.</p>
+                           <p>One of our customers, Blinds Wholesale, is on our legacy platform (similar to WordPress) for many years now. And although the site really looks professional, is fully secured, has a shopping cart and many returning visitors and customers - it basically lacks the performance it should have, especially on mobile devices.</p>
                          </div>
                       </div>
                       <div className="col-md-6 old">

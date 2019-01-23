@@ -29,7 +29,7 @@ class IndexPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={siteTitle} description={siteDescription} />
+        <SEO title={`Home`} description={siteDescription} />
         <section className="comparison pt-5">
               <Container>
                   <Row>

@@ -1,6 +1,6 @@
 ---
 title: Count On Kindness
-features: "GatsbyJS, Strapi Headless CMS, Algolia search, WebriQ APP"
+features: "GatsbyJS, Strapi Headless CMS, MongoDB, Algolia search, WebriQ APP"
 updatedDate: 2019-01-09T10:27:23.877Z
 cmsUserSlug: ""
 banner: countonkindness-b
