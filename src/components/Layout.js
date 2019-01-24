@@ -19,7 +19,7 @@ class Layout extends React.Component {
         // Install Cookies
         document.addEventListener('DOMContentLoaded', function(event) {
           window.cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
-            'Got it', 'learn more', 'https://www.webriq.com/cookies');
+            'Got it', 'learn more', '/cookies');
         });
       }
     }
@@ -58,6 +58,7 @@ class Layout extends React.Component {
           {children}
         </main>
         <Footer/>
+        <div id="cookieChoiceInfo"/>
       </div>
     )
   }
