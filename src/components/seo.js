@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-function SEO({ description, lang, meta, keywords, title, banner, metakeywords }) {
+function SEO({ description, lang, meta, keywords, title, banner, metakeywords,  }) {
   return (
     <StaticQuery
       query={detailsQuery}
@@ -63,6 +63,10 @@ function SEO({ description, lang, meta, keywords, title, banner, metakeywords })
               {
                 name: `keywords`,
                 content: metaKeyword
+              },
+              {
+                name:`google-site-verification`,
+                content: `u5iCoezcwE8SATKNxgF7Fen2afZJWUK_Fd5_SuqyDtc`
               },
             ]
               .concat(
