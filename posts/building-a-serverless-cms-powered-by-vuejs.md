@@ -1,7 +1,7 @@
 ---
 title: Building a Serverless CMS Powered by Vue.js
 author: Philippe Bodart
-banner: /img/uploads/imgix-391808-unsplash.jpg
+banner: imgix-391808-unsplash
 shortdesc: "In this tutorial, you’ll learn how to build a serverless Vue.js application using ButterCMS. ButterCMS is a headless CMS and blogging platform that lets you build CMS-powered apps using any programming language, including Vue.Building a Serverless CMS Powered by Vue.js is a post from CSS-Tricks"
 updatedDate: 2018-03-09T05:02:29.170Z
 cmsUserSlug: building-a-serverless-cms-powered-by-vuejs

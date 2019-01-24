@@ -1,7 +1,7 @@
 ---
 title: Issues with Static Website generators
 author: Philippe Bodart
-banner: /img/uploads/issues-with-static-website-generators.jpg
+banner: issues-with-static-website-generators
 shortdesc: "The missing link in building, managing and updating a Static website using the JAM Stack"
 cmsUserSlug: ""
 date: 2016-05-02T16:00:00.000Z

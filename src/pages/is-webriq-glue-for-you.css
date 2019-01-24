@@ -1,0 +1,40 @@
+.webriq-glue .webriq-glue_content:nth-child(1) {
+  border: none;
+}
+.webriq-glue .webriq-glue_content.noborder {
+  border: none !important;
+}
+.webriq-glue_content {
+  background: url("../../static/img/verified_small.png") no-repeat;
+  margin-bottom: 25px;
+  padding-left: 45px;
+}
+.webriq-glue_content strong {
+  color: #007bff;
+  font-weight:800 !important;
+}
+
+
+@media (min-width: 300px) {
+  .webriq-glue_content {
+    background-position: 0px left;
+  }
+  .webriq-glue .webriq-glue_content {
+    border: none;
+  }
+}
+
+
+@media (min-width: 576px) {
+  .webriq-glue_content {
+    background-position: left 1rem;
+  }
+  .webriq-glue .webriq-glue_content {
+    border-top: 1px solid #007bff !important
+  }
+}
+@media (min-width: 992px) {
+  .webriq-glue_content {
+    background-position: left 3rem;
+  }
+}

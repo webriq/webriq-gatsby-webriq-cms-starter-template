@@ -1,7 +1,7 @@
 ---
 title: "Load time, static site generators & SEO: How we lowered our own site’s load time by 74%"
 author: Philippe Bodart
-banner: /img/uploads/time-clock-ss-1920.jpg
+banner: time-clock-ss-1920
 shortdesc: "Google has raised the bar on site load times consistently over the last decade, and the upcoming transition to mobile-first indexing, combined with its rising expectations of mobile site performance, should be a clear warning sign to site owners."
 updatedDate: 2017-12-06T04:32:09.989Z
 cmsUserSlug: static-site-generators-and-seo

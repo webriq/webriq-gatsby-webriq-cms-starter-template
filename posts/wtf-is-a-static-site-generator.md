@@ -1,12 +1,14 @@
 ---
 title: "WTF is a Static Site Generator  "
-author: Philippe Bodart
-banner: /img/uploads/farzad-nazifi-71686-unsplash.jpg
 shortdesc: "History, background and Future of Static Site Generators"
-updatedDate: 2018-07-18T07:50:12.993Z
-cmsUserSlug: wtf-is-a-static-site-generator
-date: 2018-07-17T16:00:00.000Z
-categories: "Jamstack, CMS static websites"
+updatedDate: 2018-07-18T07:46:58.087Z
+cmsUserSlug: ""
+date: 2018-07-18T00:00:00.000Z
+author: Philippe Bodart
+leadtag: Jamstack
+metadesc: The future of Static Site Generators
+metakeywords: "Static Site Generators, JAmstack"
+banner: farzad-nazifi-71686-unsplash
 ---
 
 The difference between a Wordpress website and a Static site is well described in one of David Walsh blog posts. 

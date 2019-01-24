@@ -1,7 +1,7 @@
 ---
 title: 7 Reasons to Ditch Your CMS and Consider a Static Site Generator
 author: "  "
-banner: /img/uploads/Jekyll-Website-Builder-Featured-994x400.jpg
+banner: Jekyll-Website-Builder-Featured-994x400
 shortdesc: "For many years, publishing a website was out of reach many users. HTML authoring, hosting accounts, and managing the update of the hosted files was too much for average non-technical\_folks. Nowadays a\_user can\_sign up for a Tumblr account and be typing their first post within minutes. As users became more sophisticated, blogging platforms like WordPress provided ownership of their content. But WordPress and its peers still have a number of moving parts. This is overkill for someone who just wants to blog while still owning it. A recent answer to this is the static site generator (SSG). Lets explore why...Read the full article: 7 Reasons to Ditch Your CMS and Consider a Static Site Generator"
 updatedDate: 2017-06-20T03:54:11.381Z
 cmsUserSlug: 7-reasons-to-ditch-your-cms-and-consider-a-static-site-generator

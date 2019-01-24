@@ -1,7 +1,7 @@
 ---
 title: Are You Using The Right CMS Platform?
 author: Philippe Bodart
-banner: /img/uploads/pexels-photo-265667-1.jpeg
+banner: pexels-photo-265667-1
 shortdesc: "In order to save money and reduce redundancies, local firm Bliss Media helped the government streamline the process by developing govCMS, a single CMS platform that could be adapted for any Australian government site with both PaaS and SaaS options."
 updatedDate: 2017-07-17T00:32:17.142Z
 cmsUserSlug: are-you-using-the-right-cms-platform

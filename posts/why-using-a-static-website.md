@@ -1,7 +1,7 @@
 ---
 title: Why using a Static Website
 author: Philippe Bodart
-banner: /img/uploads/why-using-a-static-website.jpg
+banner: why-using-a-static-website
 shortdesc: "A look at an APP that enables you to build, manage and update Static websites, much in the same way as you would set-up your Wordpress site"
 cmsUserSlug: ""
 date: 2016-04-11T16:00:00.000Z

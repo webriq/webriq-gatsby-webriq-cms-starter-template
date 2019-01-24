@@ -1,7 +1,7 @@
 ---
 title: Static Website CMS
 author: Philippe Bodart
-banner: /img/uploads/728x90.gif
+banner: 728x90
 shortdesc: The Forgotten potential of Static Websites and the solutions WebriQ CMS brings to the table
 updatedDate: 2017-07-27T06:57:32.375Z
 cmsUserSlug: ""
