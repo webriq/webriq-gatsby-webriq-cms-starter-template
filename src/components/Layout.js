@@ -11,6 +11,18 @@ import stylesHero from './hero.module.css'
 import "@fortawesome/fontawesome-free/css/all.css";
 
 class Layout extends React.Component {
+    componentDidMount() {
+      if(window) {
+        const script = document.createElement("script");
+        script.src = "/js/cookies.js";
+        document.body.appendChild(script);
+        // Install Cookies
+        document.addEventListener('DOMContentLoaded', function(event) {
+          window.cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
+            'Got it', 'learn more', 'https://www.webriq.com/cookies');
+        });
+      }
+    }
   render() {
     // const { location, title, children } = this.props
     const { location, title, children, customclass } = this.props
