@@ -1,7 +1,7 @@
 ---
 title: Static Site Generator vs Flat File CMS
 author: Philippe Bodart
-banner: 2-static-sites
+banner: /img/uploads/2-static-sites.png
 shortdesc: "Based on the JAM Stack WebriQ CMS is bridging the GAP between Static Site Generators and Flat File CMS Systems. "
 updatedDate: 2017-07-17T00:22:17.821Z
 cmsUserSlug: ""

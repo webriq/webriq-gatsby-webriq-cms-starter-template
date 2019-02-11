@@ -1,7 +1,7 @@
 ---
 title: Why modern marketers and digital producers are going headless
 author: Philippe Bodart
-banner: ali-syaaban-495470
+banner: /img/uploads/ali-syaaban-495470.jpg
 shortdesc: "Every once in a while, a technology comes out that radically changes what developers can build for my fellow marketers. We hear about it at a periphery. Until we see the cool case studies though, it doesn’t mean anything to us. It’s just code and repos, which basically translates to “stuff that doesn’t help me meet my\_KPIs.”I’m going to highlight a technology that allows marketers and web producers to be more creative and reach more people, IF we’re willing to part with our traditional tools and ways of thinking.It’s time to lose your\_head. Figuratively speaking, of course. It’s time to use headless content management technologies. "
 updatedDate: 2018-02-01T03:13:59.915Z
 cmsUserSlug: why-modern-marketers-and-digital-producers-are-going-headless

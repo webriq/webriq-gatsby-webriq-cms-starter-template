@@ -1,7 +1,7 @@
 ---
 title: "What Do I Do: Static Websites or Wordpress?"
 author: Philippe Bodart
-banner: maxresdefault-49-660x330
+banner: /img/uploads/maxresdefault-49-660x330.jpg
 shortdesc: "Two Paths There are essentially two famous techniques to take whilst making a decision to construct an internet site. You can go along with a static HTML internet site or a Content Management System (CMS) which include WordPress or Joomla. If youre new to constructing and coping with web sites, then you might wonder what "
 updatedDate: 2017-08-22T03:38:21.501Z
 cmsUserSlug: what-do-i-do-static-websites-or-wordpress

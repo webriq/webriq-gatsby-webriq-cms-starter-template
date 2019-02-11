@@ -1,7 +1,7 @@
 ---
 title: E-commerce Design Trends that Will Rule in 2017
 author: Lucy Barret
-banner: ecommerce-trends
+banner: /img/uploads/ecommerce-trends.jpg
 shortdesc: "Here’s how I sum up this year: We gave a single phrase explanation to all our design and development fads (cough User-Experience cough) and have now arrived at a point where almost every design looks the same as the one before it."
 cmsUserSlug: ""
 date: 2016-10-11T00:00:00+08:00
@@ -14,13 +14,13 @@ Now, as far as online store designing goes, here are 5 trends you can expect wil
 
 ### 1. Card Layouts
 
-![Adidas Home page & Sony](  addidas_sony.jpg)
+![Adidas Home page & Sony](  /img/uploads/addidas_sony.jpg)
 
 You can thank Pinterest and every single template that used Masonry for this trend. Showing your products as Cards is something I can actively get behind, given its simplicity (of implementation) and users’ familiarity with the pattern.   
 
 ### 2. A Different take on ‘Above the fold’
 
-![Above the fold](  vimeo_duckfield_burberry.jpg  )
+![Above the fold](  /img/uploads/vimeo_duckfield_burberry.jpg  )
 
 While a lot of us may have realized that the fold is a myth, that doesn’t stop many retailers from cramming all they can on the top half for that first glance. Only, instead of cramming forms up there, we have decided to use ‘above the fold’ area for capturing attention.
 
@@ -34,9 +34,9 @@ By the end of 2013, we were at crossroads between flat and skeuomorphic design. 
 
 Here are some stores who are doing it right:
 
-![ Storyville Coffee company & Blackberry](  storyville-coffee-company_blackberry.jpg  )
+![ Storyville Coffee company & Blackberry](  /img/uploads/storyville-coffee-company_blackberry.jpg  )
 
-<center>![Pottermore](  pottermore.png  )</center>
+<center>![Pottermore](  /img/uploads/pottermore.png  )</center>
 
 #####  <center>**“Not an online store, but the perfect example anyway”**</center>
 
@@ -52,11 +52,11 @@ Basically: Even if Internet of Things hasn’t started to worry you yet, you sho
 
 ### 5. Pop-Up Marketing
 
-![Popup Reebok Crossfit]( popup-reebok-crossfit.jpg  )
+![Popup Reebok Crossfit]( /img/uploads/popup-reebok-crossfit.jpg  )
 
 ##### <center>"Reebok does popups nicely."</center>
  
-![Popup Reebok Crossfit]( popup-cyberchimps-is-confusing.jpg  )
+![Popup Reebok Crossfit]( /img/uploads/popup-cyberchimps-is-confusing.jpg  )
 
 ##### <center>"Visual confusion, bad popup, but good trigger (activates once you've read the content)."</center>
 

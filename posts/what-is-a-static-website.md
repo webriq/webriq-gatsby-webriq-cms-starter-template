@@ -1,7 +1,7 @@
 ---
 title: What is a Static Website
 author: Philippe Bodart
-banner: what-is-a-static-website
+banner: /img/uploads/what-is-a-static-website.jpg
 shortdesc: "A series of post on the why, how and when of Static Websites"
 cmsUserSlug: ""
 date: 2016-06-26T16:00:00.000Z

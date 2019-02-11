@@ -3,7 +3,7 @@ title: JAMstack is the solution for your rapidly aging CMS
 shortdesc: "A new range of solutions have emerged in the web technologies landscape. Static site generators, headless CMS, content infrastructure, to name a few. “Static trend”, “JAMStack”, several names exist but none really covers what is an overall renaissance of the real roots of the Web."
 updatedDate: 2018-08-13T07:34:52.225Z
 cmsUserSlug: jamstack-solution-for-aging-cms
-banner: bob-newman-468003-unsplash
+banner: /img/uploads/bob-newman-468003-unsplash.jpg
 leadtag: null
 metadesc: null
 metakeywords: null

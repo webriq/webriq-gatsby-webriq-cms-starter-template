@@ -1,7 +1,7 @@
 ---
 title: 7 Static Site Generators that will help you build the Amazing Websites
 author: Ankur Purohit
-banner: 7-static-site-generators1
+banner: /img/uploads/7-static-site-generators1.jpg
 shortdesc: "Today, websites are becoming smoother, faster and more flexible, as users love fast yet seamless experiences."
 updatedDate: 2017-01-04T02:44:55.137Z
 cmsUserSlug: ""

@@ -1,7 +1,7 @@
 ---
 title: What Are the Benefits of Using an Open Source CMS for Your Business Website?
 author: Philippe Bodart
-banner: open-source-cms-intro
+banner: /img/uploads/open-source-cms-intro.png
 shortdesc: "Businesses of all sizes should consider an Open Source CMS for their website needs when it comes to security, custom development as well as ongoing support. Drupal, Joomla, and WordPress all use open source software to power their frameworks and give end ..."
 updatedDate: 2017-07-09T03:11:08.610Z
 cmsUserSlug: what-are-the-benefits-of-using-an-open-source-cms-for-your-business-website

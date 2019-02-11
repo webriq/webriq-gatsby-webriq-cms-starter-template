@@ -1,7 +1,7 @@
 ---
 title: Serverless technology is bringing CMS out of the past
 author: Philippe Bodart
-banner: git-based-content-workflow-github
+banner: /img/uploads/git-based-content-workflow-github.jpg
 shortdesc: "The world is shifting to the cloud, but web content management systems like Wordpress are stuck in the past. "
 updatedDate: 2018-02-20T08:24:58.162Z
 cmsUserSlug: git-based-cms-system

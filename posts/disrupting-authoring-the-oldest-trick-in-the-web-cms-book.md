@@ -1,7 +1,7 @@
 ---
 title: "Disrupting Authoring: The Oldest Trick in the Web CMS Book"
 author: Philippe Bodart
-banner: 12b3f069c92a4cd2a3807f684b8800bd
+banner: /img/uploads/12b3f069c92a4cd2a3807f684b8800bd.jpg
 shortdesc: "When an industry has been around for decades, it naturally goes through waves of change. As content management grew from a way to manage static sites to the backbone of the whole enterprise experience, it’s evolved with market needs. Interfaces got ..."
 updatedDate: 2017-08-03T03:28:50.956Z
 cmsUserSlug: disrupting-authoring-the-oldest-trick-in-the-web-cms-book

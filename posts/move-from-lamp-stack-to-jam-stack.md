@@ -3,7 +3,7 @@ title: Top reasons to move from LAMP Stack to JAM Stack for your next Web projec
 shortdesc: "There are many reasons why you would move away from the LAMP Stack and adopt a more modern development approach with the JAM Stack. But here are the main reasons. "
 updatedDate: 2018-08-09T04:30:48.348Z
 cmsUserSlug: move-from-lamp-stack-to-jam-stack
-banner: neonbrand-686462-unsplash
+banner: /img/uploads/neonbrand-686462-unsplash.jpg
 leadtag: null
 metadesc: Move from LAMP Stack to JAM Stack
 metakeywords: "Jam Stack, LAMP Stack, Wordpress, Drupal"

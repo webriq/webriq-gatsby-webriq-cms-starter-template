@@ -1,7 +1,7 @@
 ---
 title: Who needs a Wordpress Site
 author: Philippe Bodart
-banner: flat-1-custom
+banner: /img/uploads/flat-1-custom.jpg
 shortdesc: "A couple of years ago the answer was most likely everybody, now the answer is almost nobody. Why is that?"
 cmsUserSlug: ""
 date: 2016-03-29T16:00:00.000Z

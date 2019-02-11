@@ -1,7 +1,7 @@
 ---
 title: Biggest E-commerce trends to stay afloat in 2016
 author: Samuel Dawson
-banner: ecommerce-trends-infographic
+banner: /img/uploads/ecommerce-trends-infographic.png
 shortdesc: "For the eCommerce industry, 2015 was a great year. E-commerce sales worldwide grew from $1.3 trillion in 2014 to $1.4 trillion in 2015. And, it is expected that retail commerce sales is going to be even better in 2016. In fact, according to an online report, “e-commerce sales will boost by 50 percent this year.” "
 cmsUserSlug: ""
 date: 2016-04-08T16:00:00.000Z

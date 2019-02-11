@@ -1,7 +1,7 @@
 ---
 title: WordPress or HTML?
 author: Philippe Bodart
-banner: wordpress-html-header-1-660x330
+banner: /img/uploads/wordpress-html-header-1-660x330.jpg
 shortdesc: "There are basically two popular approaches to take when you decide to build a website. You can go to a static HTML website or a Content Management System (CMS) such as WordPress or Joomla. If you are new to building and managing websites, then you might wonder what the big difference is between these two "
 updatedDate: 2017-06-23T05:15:11.342Z
 cmsUserSlug: wordpress-or-api-cms

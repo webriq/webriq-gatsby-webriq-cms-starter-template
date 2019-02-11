@@ -1,7 +1,7 @@
 ---
 title: CMS Static Websites
 author: Philippe Bodart
-banner: saas5
+banner: /img/uploads/saas5.jpg
 shortdesc: Choosing between a Git-based CMS or an API-driven CMS for managing and updating your Static Website
 updatedDate: 2017-05-16T07:40:10.678Z
 cmsUserSlug: cms-static-websites

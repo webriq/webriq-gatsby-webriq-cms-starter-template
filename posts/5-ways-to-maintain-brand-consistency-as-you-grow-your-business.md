@@ -1,7 +1,7 @@
 ---
 title: 5 Ways To Maintain Brand Consistency As You Grow Your Business
 author: " "
-banner: 640x434
+banner: /img/uploads/640x434.jpg
 shortdesc: "If you’re like many leaders, the early stages of your business required a lot of decision-making, from fundamental decisions like your core services or products all the way to decisions about design. Whether you put a ton of time into each and every ..."
 updatedDate: 2017-06-20T03:53:58.853Z
 cmsUserSlug: 5-ways-to-maintain-brand-consistency-as-you-grow-your-business

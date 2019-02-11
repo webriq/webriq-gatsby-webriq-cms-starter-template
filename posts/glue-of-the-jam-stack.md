@@ -1,14 +1,12 @@
 ---
 title: WebriQ Technology Stack - The Glue of the JAM Stack
-shortdesc: We have been building websites on the JAM Stack for over 2 Years. Wanted to share with you our latest implementations and technology choices for the JAM Stack.
-updatedDate: 2018-07-18T07:48:26.767Z
-cmsUserSlug: glue-of-the-jam-stack
-date: 2018-06-22T00:00:00.000Z
 author: Philippe Bodart
-leadtag: null
-metadesc: WebriQ is the GLUE of the JAM Stack
-metakeywords: "JAM Stack, Headless CMS, GIT based CMS"
-banner: 1_udwr6iopiem_vyoexbvbhw
+banner: /img/uploads/1_udwr6iopiem_vyoexbvbhw.png
+shortdesc: We have been building websites on the JAM Stack for over 2 Years. Wanted to share with you our latest implementations and technology choices for the JAM Stack.
+updatedDate: 2018-07-18T07:51:09.904Z
+cmsUserSlug: glue-of-the-jam-stack
+date: 2018-06-20T16:00:00.000Z
+categories: "headless cms, git based cms"
 ---
 
 # Things to Remember
@@ -50,7 +48,7 @@ The new generation of CMS systems are built as “headless” or “API-first”
 what technology it uses.
 
 # WebriQ - JAM Stack GLUE
-At WebriQ, we have been developing and deploying JAM Stack websites for over two years now. With a [dedicated APP](http://app.webriq.com), we have been able to build, develop, update and manage hundreds of sites.
+At WebriQ, we have been developing and deploying JAM Stack websites for over two years now. With a [dedicated APP](http://app.webriq.com), we have been able to build, develop, update and manage hunderds of sites.
 In this model we are using a Static Site Generator to develop the site, a GIT based CMS system to update the content and a Github repository to store all HTML, CSS and Javascript files. GIT files are pushed to a CDN network. 
 Whereas this model does fit well for most smaller projects, it has it's shortfalls when it comes to larger projects or projects with a need for frequent content updates and updates made by a variety of users, content writers and third party contributions 
 
@@ -70,4 +68,3 @@ An ultra-redundant global CDN
 https://www.netlify.com
 
 #### GET EARLY BIRD ACCESS TO[ WEBRIQ JAM STACK for ENTERPRISES](http://madmarketing.webriq.services/f/3) 
-

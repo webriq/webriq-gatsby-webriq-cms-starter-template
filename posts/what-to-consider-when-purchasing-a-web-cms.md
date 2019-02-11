@@ -1,7 +1,7 @@
 ---
 title: What to Consider When Purchasing a Web CMS
 author: " "
-banner: 1ae67562b26149ea92ade40bbd89c03f
+banner: /img/uploads/1ae67562b26149ea92ade40bbd89c03f.jpg
 shortdesc: "As content marketing is driving business revenue, price should be irrelevant — it is value that matters. Content can come from many sources, including from the traditional notion of a CMS, but needs to be mixed, tagged, targeted, translated and generally ..."
 updatedDate: 2017-06-20T03:54:32.083Z
 cmsUserSlug: what-to-consider-when-purchasing-a-web-cms

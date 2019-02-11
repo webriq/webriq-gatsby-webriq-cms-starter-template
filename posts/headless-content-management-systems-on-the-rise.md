@@ -3,7 +3,7 @@ title: Headless Content Management Systems on the Rise
 shortdesc: "A headless CMS stores content in pure format, ready for any purpose. It provides access through stateless APIs for authoring, delivery, and analytics. And it takes full advantage of the cloud."
 updatedDate: 2018-10-09T03:37:29.986Z
 cmsUserSlug: headless-content-management-systems-on-the-rise
-banner: scott-sanker-1055382-unsplash
+banner: /img/uploads/scott-sanker-1055382-unsplash.jpg
 leadtag: Headless Content Management Systems on the Rise
 metadesc: "Compelled by the need to deliver content- rich digital interactions on mobile, Web, and everywhere, supporting content management technologies are taking an API- first approach."
 metakeywords: "Jamstack, API First CMS, Headless CMS"

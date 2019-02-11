@@ -1,55 +1,40 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import { Container, Row, Col } from "react-bootstrap";
-import Layout from '../components/Layoutpost'
+
+import Layout from '../components/Layout'
 import SEO from '../components/seo'
-import { LazyLoadComponent } from 'react-lazy-load-image-component';
+import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
-  
   render() {
     const { data } = this.props
-    const siteTitle = `Blog`
+    const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-    const lists = data.allMarkdownRemark.edges.map(list => list.node)
 
     return (
-      <Layout location={this.props.location} title={siteTitle} lists={lists}>
+      <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title= {siteTitle}
+          title="All posts"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <section className="article-list py-5">
-        <Container style={{ maxWidth: '1192px'}}>
-        <h2 className="text-blue mb-4">All stories in blogs</h2>
-        <Row>
-          {posts.slice(4).map(({ node }) => {
+        {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-              <Col sm={6} md={4} lg={3} key={node.id}>
-                <LazyLoadComponent>
-                <div className="article-list-banner mb-2" 
-                  style={{ 
-                    backgroundImage: `url("https://res.cloudinary.com/dnla85pdq/image/upload/w_320,h_200,c_thumb/v1540269241/webriq/images/${node.frontmatter.banner}")`,
-                    backgroundPosition: `center center`,
-                    backgroundSize:`cover`,
-                    height: `180px`
-                
-                }}/>
-                <h5>
-                  <Link className="article-list-link" style={{ boxShadow: `none` }} to={node.fields.slug} title={title}>
-                    {title}
-                  </Link>
-                </h5>
-                {/*<small>{node.frontmatter.date}</small>*/}
-                <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-                </LazyLoadComponent>
-              </Col>
-            )
-          })}
-        </Row>
-        </Container>
-        </section>
+            <div key={node.fields.slug}>
+              <h3
+                style={{
+                  marginBottom: rhythm(1 / 4),
+                }}
+              >
+                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  {title}
+                </Link>
+              </h3>
+              <small>{node.frontmatter.date}</small>
+              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+            </div>
+          )
+        })}
       </Layout>
     )
   }
@@ -64,22 +49,16 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(
-      filter:{fileAbsolutePath:{regex: "/(posts)/"}} 
-      sort: { fields: [frontmatter___date], order: DESC }
-      ) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
-          id
-          excerpt(pruneLength: 80)
+          excerpt
           fields {
             slug
           }
           frontmatter {
-            date(fromNow: true)
+            date(formatString: "MMMM DD, YYYY")
             title
-            banner
-            author
           }
         }
       }

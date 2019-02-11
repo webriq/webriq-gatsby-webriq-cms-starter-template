@@ -1,7 +1,7 @@
 ---
 title: "Headless, But Not Brainless Web CMS"
 author: Philippe Bodart
-banner: da46216ae0ef4b5b99f3efb575195f32
+banner: /img/uploads/da46216ae0ef4b5b99f3efb575195f32.jpg
 shortdesc: "With the rising buzz of headless CMS, comes the rising misunderstanding that CMS systems must fall into one of two categories: fully headless systems that require a from-scratch build for every new touchpoint, or page-based systems that are locked into desktop websites. \nThis, of course, just isnt true.\nContinue reading..."
 updatedDate: 2017-06-22T00:40:31.536Z
 cmsUserSlug: headless-but-not-brainless-web-cms

@@ -1,7 +1,7 @@
 ---
 title: BOTS are the NEW APPS
 author: Philippe Bodart
-banner: navigation-exp
+banner: /img/uploads/navigation-exp.jpg
 shortdesc: Artificial Intelligence and Natural Language Programming are the way forward
 updatedDate: 2016-12-21T03:27:54.117Z
 cmsUserSlug: ""

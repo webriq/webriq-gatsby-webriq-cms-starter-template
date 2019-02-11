@@ -1,7 +1,7 @@
 ---
 title: Many reasons why your next website should be Static
 author: Philippe Bodart
-banner: many-reasons-static
+banner: /img/uploads/many-reasons-static.jpg
 shortdesc: There are many reasons why moving away from Wordpress to a Static website approach makes sense
 cmsUserSlug: ""
 date: 2016-06-16T16:00:00.000Z

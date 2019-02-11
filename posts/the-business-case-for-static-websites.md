@@ -1,7 +1,7 @@
 ---
 title: The business case for Static Websites
 author: Philippe Bodart
-banner: the-business-case-for-static-websites
+banner: /img/uploads/the-business-case-for-static-websites.jpg
 shortdesc: "For years websites have been database driven. It is time to relook at our approach and implement technologies that are fully adapted to a mobile environment. "
 cmsUserSlug: ""
 date: 2016-04-10T16:00:00.000Z

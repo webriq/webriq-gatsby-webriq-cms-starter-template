@@ -1,7 +1,7 @@
 ---
 title: Is it time to give up on your WordPress site?
 author: Philippe Bodart
-banner: untitled
+banner: /img/uploads/untitled.png
 shortdesc: "WordPress is turning into the security equivalent of Swiss cheese, it may be time to stop using WordPress online and start to use technology stack that are far more secure."
 cmsUserSlug: static-website-generators
 date: 2016-11-09T16:00:00.000Z

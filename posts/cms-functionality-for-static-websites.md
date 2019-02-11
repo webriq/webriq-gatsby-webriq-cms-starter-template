@@ -1,7 +1,7 @@
 ---
 title: CMS-functionality for static websites
 author: Philippe Bodart
-banner: cms16
+banner: /img/uploads/cms16.png
 shortdesc: "I just dumped my old web CMS, got the hang of a static site generator, and really like the simple, lightweight and maintenance-free feel of it... would I ever revert back"
 updatedDate: 2017-01-20T07:37:12.671Z
 cmsUserSlug: cms-static-website

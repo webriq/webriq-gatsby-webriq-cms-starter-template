@@ -1,7 +1,7 @@
 ---
 title: The Benefits Of A Headless CMS
 author: Philippe Bodart
-banner: goran-ivos-246271
+banner: /img/uploads/goran-ivos-246271.jpg
 shortdesc: Business users are looking to publish content updates and affect all sites and applications that use this content. This is where a headless CMS shines.
 updatedDate: 2017-11-28T23:12:18.250Z
 cmsUserSlug: the-benefits-of-a-headless-cms
