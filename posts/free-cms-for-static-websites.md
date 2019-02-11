@@ -1,7 +1,7 @@
 ---
 title: Free CMS for Static Websites
 author: Philippe Bodart
-banner: /img/uploads/free-cms.jpg
+banner: free-cms
 shortdesc: The reasons why a CMS system for Static websites is not a contradiction in terms
 cmsUserSlug: ""
 date: 2016-05-15T16:00:00.000Z

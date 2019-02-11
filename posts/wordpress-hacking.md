@@ -1,7 +1,7 @@
 ---
 title: Wordpress hacking spree sees more then 1 million web pages defaced
 author: Philippe Bodart
-banner: /img/uploads/unknown1.jpg
+banner: unknown1
 shortdesc: "A hacking spree has seen tonnes and tonnes of Wordpress blogs defaced, and probably caused a lot of people to try and remember their password so that they can log in and check whether they have been affected."
 updatedDate: 2017-02-14T03:41:53.289Z
 cmsUserSlug: wordpress-hacking

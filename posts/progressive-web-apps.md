@@ -1,7 +1,7 @@
 ---
 title: Progressive Web APPS - Next step in Responsive Web Design
 author: Philippe Bodart
-banner: /img/uploads/unknown1.jpg
+banner: unknown1
 shortdesc: "Smashing Magazine, one of the largest and most influential online publications for web design, posted that their website was “now running as a Progressive Web App."
 updatedDate: 2017-05-04T07:12:07.543Z
 cmsUserSlug: progressive-web-apps

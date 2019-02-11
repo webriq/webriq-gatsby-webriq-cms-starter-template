@@ -3,7 +3,7 @@ title: Headless CMS and Content as a Service
 shortdesc: "A radical shift away from Monolithic CMS systems like Wordpress, Drupal, Concrete5 and Joomla"
 updatedDate: 2018-10-12T04:46:40.835Z
 cmsUserSlug: ""
-banner: /img/uploads/android_resized.png
+banner: android_resized
 leadtag: null
 metadesc: null
 metakeywords: null

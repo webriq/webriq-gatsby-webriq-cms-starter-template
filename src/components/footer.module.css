@@ -1,0 +1,19 @@
+.footer {
+  font-size: 14px;
+  clear: both;
+}
+
+.footer a{
+  color: #031121;
+  text-decoration: none;
+  box-shadow: none;
+}
+.subscription input {
+  border:none;
+}
+.footer-info li {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  margin-bottom: 1rem;
+}

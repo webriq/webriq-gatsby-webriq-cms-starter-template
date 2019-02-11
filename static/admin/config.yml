@@ -18,24 +18,43 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Banner", name: "banner", widget: "image", class: "image featured"}
       - {label: "Short Description", name: "shortdesc", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
     meta: # Meta data fields. Just like fields, but without any preview element
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Banner Filename", name: "banner", widget: "string"}
+      - {label: "Title Tags", name: "leadtag", widget: "string"}
+      - {label: "Meta Description", name: "metadesc", widget: "string"}
+      - {label: "Meta Keywords", name: "metakeywords", widget: "string"}
       - {label: "Categories", name: "categories", widget: "string"}
-  - name: "data"
-    label: "Data"
-    files:
-      - name: "characters"
-        label: "Characters"
-        file: "data/characters.json"
-        fields:
-          - label: "Characters"
-            name: "data"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Image", name: "image", widget: "image", media_folder: "static/img"}
-              - {label: "Description", name: "description", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "string"}
+  # Data structure for showcase entries
+  - name: "showcase" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Showcases"  # Used in the UI, ie.: "Showcases"
+    folder: "showcase" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Client", name: "title", widget: "string"}
+      - {label: "Features comma separated", name: "features", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+    meta: # Meta data fields. Just like fields, but without any preview element
+      - {label: "Filename from Cloudinary", name: "banner", widget: "string"}
+      - {label: "Filenames from Cloudinary", name: "slider", widget: "string"}
+      - {label: "Folder Name", name: "slider_folder", widget: "string"}
+      - {label: "Site Owner", name: "site", widget: "string"}
+      - {label: "Website Link", name: "website", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+  # - name: "data"
+  #   label: "Data"
+  #   files:
+  #     - name: "characters"
+  #       label: "Characters"
+  #       file: "data/characters.json"
+  #       fields:
+  #         - label: "Characters"
+  #           name: "data"
+  #           widget: "list"
+  #           fields:
+  #             - {label: "Name", name: "name", widget: "string"}
+  #             - {label: "Image", name: "image", widget: "image", media_folder: "static/img"}
+  #             - {label: "Description", name: "description", widget: "string"}
