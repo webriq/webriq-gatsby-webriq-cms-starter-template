@@ -1,15 +1,15 @@
 ---
 title: JAMstack for Web Marketers
 shortdesc: "New ways to publish website content concerns marketeers as much as it concerns web developers. Let's see how JAMstack figures into this."
-updatedDate: 2019-03-05T22:42:43.288Z
+updatedDate: 2019-03-05T22:50:21.830Z
 cmsUserSlug: ""
 banner: 1000px-JAMstack_logo.svg
 leadtag: JAMstack for Web Marketers
 metadesc: "New ways to publish website content concerns marketeers as much as it concerns web developers. Let's see how JAMstack figures into this."
 metakeywords: null
 categories: ""
-date: 2019-03-06T10:00:00+08:00
-author: null
+date: 2019-03-06T06:49:00+08:00
+author: Philippe Bodart
 ---
 
 JAM stands for JavaScript, APIs, and Markup.
@@ -72,6 +72,8 @@ If this is all a bit overwhelming and you need help in choosing all the building
 We have developed a very opinionated way of implementing websites, ecommerce carts, and webapps and we completely moved away from a monolithic, legacy and centralized approach. We believe in a decentralized approach whereby each software component is chosen for it is best in class, but at the same time replaceable with a newer best in class if needed. Where we can not find a best in class critical functionality that is open sourced, we develop it ourselves, i.e. WebriQ Forms. 
 
 We are strong supporters of the API economy and we strongly believe in microservices when it comes to functionality and automation. We aim at 100% serverless operation, and we know how to do that. We also aim for 100% uptime and, yes, we know what it takes to achieve this. We are highly specialized, and opinionated when it comes to the technology stack used.
+
+
 
 
 
