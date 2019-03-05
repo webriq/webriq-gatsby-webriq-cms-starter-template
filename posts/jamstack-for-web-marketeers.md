@@ -1,14 +1,14 @@
 ---
-title: JamStack for Web Marketeers
+title: JamStack for Web Marketers
 shortdesc: New ways to publish website content concerns marketeers as much as it concerns web developers
-updatedDate: 2019-03-05T05:48:28.420Z
+updatedDate: 2019-03-05T18:40:21.614Z
 cmsUserSlug: ""
 banner: null
 leadtag: null
 metadesc: null
 metakeywords: null
 categories: null
-date: 2019-03-05T00:00:00+08:00
+date: 2019-03-04T16:00:00.000Z
 author: null
 ---
 
@@ -44,5 +44,7 @@ In order for your CMS to be JAMstack-ready, it has to be compatible with JavaScr
 A static site generator (SSG) is the perfect partner for a headless CMS. An SSG generates HTML-only website using markdown files. That static site can then be uploaded to a Content Delivery Network (CDN), remaining unchanged until the next time the SSG is run.
 4. Choose WebriQ GLUE
 If this is all a bit overwhelming and you need help in choosing all the building blocks, and your in-house capabilities are just not up to the job, WebriQ GLUE might be the a good option to consider. We have developed a very opinionated way of implementing websites, ecommerce carts and webapps and we completely moved away from a monolithic, legacy and centralized approach. We believe in a decentralized approach whereby each software component is chosen for it’s best in class, but at the same time replaceable with a newer best in class if needed. Where we can not find a best in class critical functionality that is open sourced, we develop it ourselves, i.e. WebriQ Forms. We are strong supporters of the API economy and we strongly believe in microservices when it comes to functionality and automation. We aim at 100% serverless operation, and we know how to do that and we aim at 100% uptime, and we know how to do that. We are highly specialized, and opinionated when it comes to the technology stack used.
+
+
 
 
