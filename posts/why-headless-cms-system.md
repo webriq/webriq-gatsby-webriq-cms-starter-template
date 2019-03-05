@@ -1,7 +1,7 @@
 ---
 title: "The web has changed, so must our way to publish content for the web."
 shortdesc: A new generation of CMS systems is emerging. Headless CMS are about to conquer the web publishing market. Why should your company jump on the bandwagon.
-updatedDate: 2019-01-21T04:44:32.829Z
+updatedDate: 2019-03-05T04:12:21.029Z
 cmsUserSlug: why-headless-cms-system
 banner: Unknown123
 leadtag: "The web has changed, so must our way to publish content for the web."
@@ -75,6 +75,8 @@ We have developed a very opinionated way of implementing websites, ecommerce car
 We are strong supporters of the API economy and we strongly believe in microservices when it comes to functionality and automation.
 We aim at 100% serverless operation, and we know how to do that and we aim at 100% uptime, and we know how to do that.
 We are highly specialized, and opinionated when it comes to the technology stack used.
+
+
 
 
 
