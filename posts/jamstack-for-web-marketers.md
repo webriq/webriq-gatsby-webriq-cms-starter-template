@@ -1,7 +1,7 @@
 ---
 title: JAMstack for Web Marketers
 shortdesc: "New ways to publish website content concerns marketeers as much as it concerns web developers. Let's see how JAMstack figures into this."
-updatedDate: 2019-03-05T22:55:23.358Z
+updatedDate: 2019-03-05T23:25:09.119Z
 cmsUserSlug: ""
 banner: 1000px-JAMstack_logo.svg
 leadtag: JAMstack for Web Marketers
@@ -16,7 +16,7 @@ JAM stands for JavaScript, APIs, and Markup.
 
 In terms of what this means to you as a marketer – it's essentially a modern way to build a website that is published as a set of static HTML files.
 
-![](https://res.cloudinary.com/dnla85pdq/image/upload/v1551825126/webriq-services/images/1000px-JAMstack_logo.svg.png)
+![image](https://res.cloudinary.com/dnla85pdq/image/upload/v1551828207/webriq/images/1000px-JAMstack_logo.svg.png)
 
 As a marketeer, you are obviously familiar with the 4 Ps and the marketing mix. 
 
@@ -34,7 +34,7 @@ Cheaper, easier and faster to scale, means that new features can be added pretty
 
 ## Moving Away from Monolithic CMS and Plugins
 
-![](https://res.cloudinary.com/dnla85pdq/image/upload/v1551825159/webriq-services/images/online-marketing-1246457_960_720.jpg)
+![image](https://res.cloudinary.com/dnla85pdq/image/upload/v1551828142/webriq/images/online-marketing-1246457_960_720.jpg)
 
 Building a marketing website with well-known platforms like Wordpress or Drupal that offer plugins, add-ons, and other easy wins for marketers has been a great idea for many years. Sometimes it is a great idea. But too many times, performance is seriously lagging and the only real solution is to start over and build something that is suited to your specific needs, without all of the extra bloat.
 
@@ -54,7 +54,7 @@ For brands who are looking to move over to the JAMstack, the in-house or outsour
 
 ### 2. The Choice of a Headless CMS 
 
-![](https://res.cloudinary.com/dnla85pdq/image/upload/v1551825424/webriq-services/images/68747470733a2f2f626c6f672e7374726170692e696f2f636f6e74656e742f696d616765732f323031372f31302f6c6f676f2e706e67.png)
+![image](https://res.cloudinary.com/dnla85pdq/image/upload/v1551828274/webriq/images/68747470733a2f2f626c6f672e7374726170692e696f2f636f6e74656e742f696d616765732f323031372f31302f6c6f676f2e706e67.png)
 *Strapi is a good example of a headless CMS*
 
 In order for your CMS to be JAMstack-ready, it has to be compatible with JavaScript. A headless CMS decouples the back end - which stores all the content, databases, and files - from the front end. Typically, a headless CMS uses APIs, through which content can be pushed and pulled between various platforms and devices. 
@@ -80,3 +80,6 @@ We are strong supporters of the API economy and we strongly believe in microserv
 
 
 
+
+
+  https://res.cloudinary.com/dnla85pdq/image/upload/v1551828274/webriq/images/68747470733a2f2f626c6f672e7374726170692e696f2f636f6e74656e742f696d616765732f323031372f31302f6c6f676f2e706e67.png  
