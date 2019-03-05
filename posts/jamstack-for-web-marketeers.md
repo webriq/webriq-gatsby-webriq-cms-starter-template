@@ -1,7 +1,7 @@
 ---
 title: JamStack for Web Marketers
 shortdesc: "New ways to publish website content concerns marketeers as much as it concerns web developers. Let's see how JamStack figures into this."
-updatedDate: 2019-03-05T20:08:22.094Z
+updatedDate: 2019-03-05T21:59:22.094Z
 cmsUserSlug: ""
 banner: null
 leadtag: null
@@ -12,31 +12,37 @@ date: 2019-03-04T16:00:00.000Z
 author: null
 ---
 
-JAM stands for JavaScript, APIs and Markup.
+JAM stands for JavaScript, APIs, and Markup.
 
 In terms of what this means to you as a marketer – it's essentially a modern way to build a website that is published as a set of static HTML files.
 
-As a marketeer, you are obviously familiar with the 4P's and the marketing mix. 
+As a marketeer, you are obviously familiar with the 4 Ps and the marketing mix. 
+
 The term Marketing Mix was developed by Neil Borden who first started using the phrase in 1949. “An executive is a mixer of ingredients, who sometimes follows a recipe as he goes along, sometimes adapts a recipe to the ingredients immediately available, and sometimes experiments with or invents ingredients no one else has tried." (Culliton, J. 1948)
-E. Jerome McCarthy (McCarthy, J. 1960), was the first person to suggest the four P's of marketing – price, promotion, product and place (distribution) – which constitute the most common variables used in constructing a marketing mix. According to McCarthy the marketers essentially have these four variables which they can use while crafting a marketing strategy and writing a marketing plan. 
-All these basics concepts have evolved over time, and now some marketing gurus are talking about 6P's, the 2 new ones being Process and People. 
 
-The way we build websites, the way viewers consume websites and what they expect from a website has evolved over time as well. For a marketeer, a website needs to quickly grab a viewers attention and lead them to where they can start interact with the website. 
-And as websites may not have the long tradition and history of the marketing mix, it has its own credos. Instead of the 4P's we call it the 4S's – speed, security, stability and scalability. 
+E. Jerome McCarthy (McCarthy, J. 1960) was the first person to suggest the four Ps of marketing – price, promotion, product, and place (distribution). These constitute the most common variables used in constructing a marketing mix. According to McCarthy, the marketers essentially have these four variables which they can use while crafting a marketing strategy and writing a marketing plan. 
 
-Whilst the 4S's are important to web developers and websites in general, they are important to marketeers as well. Speed and better performance means better site engagement and better SEO. Improved security means a better chance that you will reach your online marketing goals, because there is no chance your site will be down or hacked. 
+All these basics concepts have evolved over time, and now some marketing gurus are talking about 6 Ps, the 2 new ones being Process and People. 
+
+The way we build websites, the way viewers consume websites, and what they expect from a website has evolved over time as well. For a marketer, a website needs to quickly grab a viewer's attention and lead them to where they can start interacting with the website. And as websites may not have the long tradition and history of the marketing mix, building one has its own credos. Instead of the 4 Ps, we call it the 4 S (speed, security, stability, and scalability). 
+
+Whilst the 4 S are important to web developers and websites in general, they are important to marketeers as well. Speed and better performance means better site engagement and better SEO. Improved security means a better chance that you will reach your online marketing goals, because there is no chance your site will be down or hacked. 
 
 Cheaper, easier and faster to scale, means that new features can be added pretty easily and that you do not have to worry about being hit by 100,000 visitors at once because of a successful campaign. 
 
-MOVING AWAY FROM MONOLITHIC CMS and PLUGINS
+## Moving Away from Monolithic CMS and Plugins
 
 Building a marketing website with well-known platforms like Wordpress or Drupal, that offer plugins, add-ons and other easy wins for marketers has been a great idea for many years. Sometimes it is a great idea. But too many times, performance is seriously lagging and the only real solution is to start over and build something that is suited to your specific needs, without all of the extra bloat.
+
 Hacked up themes, page builders and plugins for all of the things can wreak havoc with site performance if you have a dynamic site powered by a monolithic CMS. This has a knock-on effect on the user experience, SEO and overall effectiveness of your website. 
+
 Site performance and site speed is an increasingly important ranking factor. Not only that, all of the top ranking factors these days are related to on-site engagement, which also suffers if you haven't got a site that performs.
+
 Ditching the concept of the plugin and opting for a JAMstack site which is "just HTML" doesn't actually mean you have to give up functionality, or suddenly need to know how to code like a front-end developer to manage a site and its content. You can still achieve the same results with an ecosystem of tools and services that are tailored specifically for you. Yes it takes some development up-front (let's be real, so does any website) - but the payoff is huge!  
 
+## Moving Marketing Website to JamStack
 
-IF YOU ARE LOOKING TO MOVE YOUR MARKETING WEBSITE to the JAMSTACK, here are the boxes you should tick
+If you are looking to move your marketing website to JamStack, here are the boxes you should tick:
 
 1. Look for a team with strong Javascript skills
 For brands who are looking to move over to the JAMstack, the in-house or outsourced web development team should be well-versed in JavaScript and API ecosystem. We’re talking about front-end-centric development here. 
