@@ -1,7 +1,7 @@
 ---
 title: JamStack for Web Marketers
-shortdesc: New ways to publish website content concerns marketeers as much as it concerns web developers
-updatedDate: 2019-03-05T18:40:21.614Z
+shortdesc: "New ways to publish website content concerns marketeers as much as it concerns web developers. Let's see how JamStack figures into this."
+updatedDate: 2019-03-05T19:04:22.093Z
 cmsUserSlug: ""
 banner: null
 leadtag: null
@@ -13,6 +13,7 @@ author: null
 ---
 
 JAM stands for JavaScript, APIs and Markup.
+
 In terms of what this means to you as a marketer – it's essentially a modern way to build a website that is published as a set of static HTML files.
 
 As a marketeer, you are obviously familiar with the 4P's and the marketing mix. 
@@ -28,6 +29,7 @@ Whilst the 4S's are important to web developers and websites in general, they ar
 Cheaper, easier and faster to scale, means that new features can be added pretty easily and that you do not have to worry about being hit by 100,000 visitors at once because of a successful campaign. 
 
 MOVING AWAY FROM MONOLITHIC CMS and PLUGINS
+
 Building a marketing website with well-known platforms like Wordpress or Drupal, that offer plugins, add-ons and other easy wins for marketers has been a great idea for many years. Sometimes it is a great idea. But too many times, performance is seriously lagging and the only real solution is to start over and build something that is suited to your specific needs, without all of the extra bloat.
 Hacked up themes, page builders and plugins for all of the things can wreak havoc with site performance if you have a dynamic site powered by a monolithic CMS. This has a knock-on effect on the user experience, SEO and overall effectiveness of your website. 
 Site performance and site speed is an increasingly important ranking factor. Not only that, all of the top ranking factors these days are related to on-site engagement, which also suffers if you haven't got a site that performs.
