@@ -1,14 +1,14 @@
 ---
 title: JAMstack for Web Marketers
 shortdesc: "New ways to publish website content concerns marketeers as much as it concerns web developers. Let's see how JAMstack figures into this."
-updatedDate: 2019-03-05T22:35:22.093Z
+updatedDate: 2019-03-05T22:40:59.702Z
 cmsUserSlug: ""
-banner: ""
-leadtag: null
-metadesc: null
+banner: 1000px-JAMstack_logo.svg
+leadtag: JAMstack for Web Marketers
+metadesc: "New ways to publish website content concerns marketeers as much as it concerns web developers. Let's see how JAMstack figures into this."
 metakeywords: null
-categories: null
-date: 2019-03-04T16:00:00.000Z
+categories: ""
+date: 2019-03-06T10:00:00+08:00
 author: null
 ---
 
@@ -16,7 +16,7 @@ JAM stands for JavaScript, APIs, and Markup.
 
 In terms of what this means to you as a marketer – it's essentially a modern way to build a website that is published as a set of static HTML files.
 
-![image](http://)
+![image](https://res.cloudinary.com/dnla85pdq/image/upload/v1551825126/webriq-services/images/1000px-JAMstack_logo.svg.png)
 
 As a marketeer, you are obviously familiar with the 4 Ps and the marketing mix. 
 
@@ -33,6 +33,8 @@ Whilst the 4 S are important to web developers and websites in general, they are
 Cheaper, easier and faster to scale, means that new features can be added pretty easily and that you do not have to worry about being hit by 100,000 visitors at once because of a successful campaign. 
 
 ## Moving Away from Monolithic CMS and Plugins
+
+![image](https://res.cloudinary.com/dnla85pdq/image/upload/v1551825159/webriq-services/images/online-marketing-1246457_960_720.jpg)
 
 Building a marketing website with well-known platforms like Wordpress or Drupal that offer plugins, add-ons, and other easy wins for marketers has been a great idea for many years. Sometimes it is a great idea. But too many times, performance is seriously lagging and the only real solution is to start over and build something that is suited to your specific needs, without all of the extra bloat.
 
@@ -51,6 +53,9 @@ If you are looking to move your marketing website to JAMstack, here are the boxe
 For brands who are looking to move over to the JAMstack, the in-house or outsourced web development team should be well-versed in JavaScript and API ecosystem. We’re talking about front-end-centric development here. 
 
 ### 2. The Choice of a Headless CMS 
+
+![image](https://res.cloudinary.com/dnla85pdq/image/upload/v1551825424/webriq-services/images/68747470733a2f2f626c6f672e7374726170692e696f2f636f6e74656e742f696d616765732f323031372f31302f6c6f676f2e706e67.png)
+*Strapi is a good example of a headless CMS*
 
 In order for your CMS to be JAMstack-ready, it has to be compatible with JavaScript. A headless CMS decouples the back end - which stores all the content, databases, and files - from the front end. Typically, a headless CMS uses APIs, through which content can be pushed and pulled between various platforms and devices. 
 
