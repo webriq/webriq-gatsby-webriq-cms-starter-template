@@ -1,9 +1,9 @@
 ---
 title: JAMstack for Web Marketers
 shortdesc: "New ways to publish website content concerns marketeers as much as it concerns web developers. Let's see how JAMstack figures into this."
-updatedDate: 2019-03-05T22:27:22.099Z
+updatedDate: 2019-03-05T22:35:22.093Z
 cmsUserSlug: ""
-banner: null
+banner: ""
 leadtag: null
 metadesc: null
 metakeywords: null
