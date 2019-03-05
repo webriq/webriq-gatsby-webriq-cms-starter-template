@@ -1,14 +1,14 @@
 ---
 title: JAMstack for Web Marketers
 shortdesc: "New ways to publish website content concerns marketeers as much as it concerns web developers. Let's see how JAMstack figures into this."
-updatedDate: 2019-03-05T22:46:20.937Z
+updatedDate: 2019-03-05T22:49:23.821Z
 cmsUserSlug: ""
 banner: 1000px-JAMstack_logo.svg
 leadtag: JAMstack for Web Marketers
 metadesc: "New ways to publish website content concerns marketeers as much as it concerns web developers. Let's see how JAMstack figures into this."
 metakeywords: null
 categories: ""
-date: 2019-03-06T02:00:00.000Z
+date: 2019-03-06T06:49:00+08:00
 author: Philippe Bodart
 ---
 
