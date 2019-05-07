@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/assets/img`,
+        path: `${__dirname}/static/img`,
         name: `image_assets`,
       },
     },
@@ -51,9 +51,23 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        // trackingId: `ADD YOUR TRACKING ID HERE`,
+        // head: true,
+        // anonymize: true,
+        // respectDNT: true,
+        // cookieDomain: `example.com`
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `open sans\:400,600,700,800`,
+          `montserrat\:400,500,600,700` // you can also specify font weights and styles
+        ]
+      }
+    },
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -64,7 +78,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#f7f7f7`,
         display: `minimal-ui`,
-        icon: `assets/img/gatsby-icon.png`,
+        icon: `static/gatsby-icon.png`,
       },
     },
     `gatsby-plugin-offline`,
