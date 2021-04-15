@@ -3,7 +3,7 @@ title: "A Bucks County woman created ‘deepfake’ videos to harass rivals on h
 author: Vinny Vella
 banner: /img/uploads/gnr4w3fnl5fspkc5347qcla7ca.jpg
 shortdesc: A Bucks County woman anonymously sent coaches on her teen daughter’s cheerleading squad fake photos and videos
-updatedDate: 2021-04-15T05:50:51.062Z
+updatedDate: 2021-04-15T05:57:51.097Z
 cmsUserSlug: ""
 date: 2021-03-12T16:00:00.000Z
 categories: null
