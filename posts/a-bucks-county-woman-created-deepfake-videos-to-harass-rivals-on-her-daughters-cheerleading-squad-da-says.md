@@ -3,9 +3,9 @@ title: "A Bucks County woman created ‘deepfake’ videos to harass rivals on h
 author: Vinny Vella
 banner: /img/uploads/gnr4w3fnl5fspkc5347qcla7ca.jpg
 shortdesc: A Bucks County woman anonymously sent coaches on her teen daughter’s cheerleading squad fake photos and videos
-updatedDate: 2021-04-15T05:33:36.512Z
+updatedDate: 2021-04-15T05:36:43.118Z
 cmsUserSlug: ""
-date: 2021-03-13T00:00:00+08:00
+date: 2021-03-12T16:00:00.000Z
 categories: null
 ---
 
@@ -36,3 +36,4 @@ Ratel said his daughter and the two other victims were initially friends with Sp
 “I don’t know what would push her to this point,” Ratel said. “As a dad I was pretty upset about it. It’s an image put out there of my daughter that is simply not true.”
 
   The coaches and gym owners, Mark McTague and Kelly Cramer, declined to comment Friday.  The coaches and gym owners, Mark McTague and Kelly Cramer, declined to comment Friday.
+
